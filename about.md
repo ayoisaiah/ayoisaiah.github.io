@@ -1,15 +1,14 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+I'm learning Web Development via [FreeCodeCamp](http://freecodecamp.com) and I'm on my way to building stuff that will solve real world problems. I will be writing about my journey to becoming a full-stack web developer, coding in general plus other stuff about how I stay productive on a daily basis.
 
-### More Information
+##Get In Touch
 
-A place to include any other types of information that you'd like to include about yourself.
+- [Twitter](https://twitter.com/ayisaiah)
+- [Github](https://github.com/ayoisaiah)
+- [Email](mailto:ayisaiah@gmail.com)
 
-### Contact me
-
-[ayo@ayoisaiah.com](mailto:ayo@ayoisaiah.com)

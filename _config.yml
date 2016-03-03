@@ -18,10 +18,10 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: ayoisaiah@outlook.com
+  email: ayisaiah@gmail.com
   facebook:
   flickr:
-  github: ayoisaiah/ayoisaiah.github.io
+  github: ayoisaiah
   instagram:
   linkedin:
   pinterest:
@@ -29,7 +29,7 @@ footer-links:
   twitter: ayisaiah
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: +Ayoisaiah22 # anything in your profile username that comes after plus.google.com/
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -37,7 +37,7 @@ footer-links:
 disqus: ayo_isaiah
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-74640522-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
