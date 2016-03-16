@@ -10,7 +10,7 @@ Now that I've freed up some time on several fronts, I think it's about time I st
 
 I read about the advantages of static websites and I saw how simple and clean most Jekyll-powered sites looked plus the chance to write my posts in markdown using my favourite editor and push the changes to production using git was too cool to pass up on.
 
-So I forked [Jekyll Now](https://github.com/barryclark/jekyll-now) on Github, did the initial configuration and was up and running in about 15 minutes. I didn't want to move my existing content from WordPress over here but if you're looking to move from WP to Jekyll, there are [several ways]() to transfer your content over.
+So I forked [Jekyll Now](https://github.com/barryclark/jekyll-now) on Github, did the initial configuration and was up and running in about 15 minutes. I didn't want to move my existing content from WordPress over here but if you're looking to move from WP to Jekyll, there are [several ways](http://www.girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) to transfer your content over.
 
 ##Progress report
 
