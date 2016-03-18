@@ -76,6 +76,6 @@ I'll love to hear your thoughts on my approach and what things I could improve o
 
 I'll be working on the  "[Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)" project this weekend and I hope to have it done by Sunday. This will be my first real experience with using an API and I hope I get it right quickly enough.
 
-I will write a similar post on that project next week so keep an eye out for that.
+I will write a similar post on that project next week so keep an eye out for that one.
 
 If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:ayisaiah@gmail.com).
