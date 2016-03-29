@@ -108,7 +108,7 @@ You can checkout the full code and effects on [Codepen](http://codepen.io/ayoisa
 
 ##Key takeaway
 
-My major takeaway from this project is that I learnt how to access each part of the returned JSON data from the API response and use it in different ways. Although my methodology needs some work, it's bound to get better with more practice.
+My major takeaway from this project is that I learnt how to access each part of the returned JSON data from the API response and use it in different ways. Although my methodology needs some refining, it's bound to get better with more practice.
 
 #What's next... 
 
