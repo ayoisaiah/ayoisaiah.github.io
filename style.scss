@@ -285,6 +285,20 @@ footer {
   text-align: center;
 }
 
+//Custom Styles
+
+.share-buttons {
+  margin: 2em 0;
+}
+
+.share-buttons a {
+  display: inline-block;
+}
+
+hr {
+  color: $lightGray;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
