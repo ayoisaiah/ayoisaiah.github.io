@@ -288,15 +288,14 @@ footer {
 //Custom Styles
 
 .share-buttons {
-  margin: 2em 0;
+  margin: 1em 0;
+  border-top: 1px solid $lightGray;
+  border-bottom: 1px solid $lightGray;
+  padding: 10px 0;
 }
 
 .share-buttons a {
   display: inline-block;
-}
-
-hr {
-  color: $lightGray;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
