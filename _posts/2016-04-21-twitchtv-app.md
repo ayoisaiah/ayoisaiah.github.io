@@ -2,7 +2,7 @@
 layout: post
 title: Building a TwitchTv App [Project]
 permalink: /twitch-tv-project/
-excerpt: How I tackled the last intermediate front-end projects on Free Code Camp
+excerpt: How I tackled the last intermediate front-end project on Free Code Camp
 ---
 
 Last week, I tackled the last of the Intermediate Front-End Projects which involved building a [TwitchTv App](https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api) using the Twitch API to display the status of a set of Twitch Streamers.
