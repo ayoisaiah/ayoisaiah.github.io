@@ -150,7 +150,7 @@ So that was pretty much it for this project. You can view the [final version](ht
 
 ##Key Takeaway
 
-Even as I write this blog post, several ways to improve the user experience on my app continue to pop into my head so my key takeaway from this project is this:
+Even as I write this blog post, several ways to improve the user experience on my app continue to pop into my head so my key takeaway from this project is:
 
 **Software is never finished.** [It is a process and it is always evolving](http://scripting.com/davenet/1995/09/03/wemakeshittysoftware.html).
 
