@@ -15,7 +15,7 @@ If you're interested in looking at my solutions, they can be found on [Github](h
 
 ## What's next
 
-As previously mentioned, I'm moving on to the [Advanced Front-End Development Projects](https://www.freecodecamp.com/map#nested-collapseAdvancedFrontEndDevelopmentProjects) this weekend. Fortunately, before Free Code Camp restructured the curriculum, I had already done the [JavaScript Calculator](http://codepen.io/ayoisaiah/full/NxMEpe) and [Pomodoro Clock](http://codepen.io/ayoisaiah/full/wMZYvg) projects which means I'll be moving straight to the Tic Tac Toe Project and I hope to have it completed within the next week. 
+As previously mentioned, I'm moving on to the [Advanced Front-End Development Projects](https://www.freecodecamp.com/map#nested-collapseAdvancedFrontEndDevelopmentProjects) this weekend. Thankfully, before Free Code Camp restructured the curriculum, I had already done the [JavaScript Calculator](http://codepen.io/ayoisaiah/full/NxMEpe) and [Pomodoro Clock](http://codepen.io/ayoisaiah/full/wMZYvg) projects which means I'll be moving straight to the Tic Tac Toe Project and I hope to have it completed within the next week. 
 
 ![Advanced Front-End Projects]({{ site.baseurl }}/images/post-images/advanced-front-end-projects.png  "Advanced Front-End Projects")
 
