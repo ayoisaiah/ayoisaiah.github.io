@@ -21,7 +21,7 @@ Most of the Simon Game projects I've seen were built in a similar style to the [
 
 Truth be told, I took this idea from the Simon Game app on my phone which was setup in a similar manner. However, to make the buttons really standout, I made them sport a clicking effect using CSS transitions and transforms.
 
-The next issue was getting the app to play a unique tone when each button is pressed. Free Code Camp provided links to mp3 files that could be used which was really thoughtful so I just used those. 
+One thing I had to deal with was getting the app to play a unique tone when each button is pressed. Free Code Camp provided links to mp3 files that could be used which was really helpful so I just used those.
 
 As I have never attempted to play audio files in a web browser, I had to search Stack Overflow to find a way of doing this and specifically how to play the sound on button press. The [solution I found](https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click) seemed a pretty neat way of doing it so I simply modified the code to make it work for my situation.
 
@@ -57,13 +57,13 @@ If the indexes in both arrays are all identical (that is if they contain the sam
 	}
 ```
 
-Translating this logic into code wasn't as straightforward as I thought and I had to tweak my ideas quite a bit before everything clicked. I'm not going to bore you with the gory details though. 
+Translating this logic into code wasn't as straightforward as I thought and I had to tweak my ideas quite a bit before everything clicked. I'm not going to bore you with the gory details though.
 
-The full code and effects can be viewed on [CodePen](http://codepen.io/ayoisaiah/full/bpPRNJ/).
+If you're interested, the full code and effects can be viewed on [CodePen](http://codepen.io/ayoisaiah/full/bpPRNJ/).
 
-This was one of my favourite projects so far which and it proved fitting way to complete the Front-End section of Free Code Camp.
+This was one of my favourite projects so far and it proved fitting way to complete the Front-End section of Free Code Camp.
 
-I hope I can kick on from here and continue to improve and build great things.
+I hope I can kick on from here and continue to improve my code and build great things.
 
 ![Front-End Certificate]({{ site.baseurl }}/images/post-images/front-end-cert.png  "Front-End Certificate")
 
