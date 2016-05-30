@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building a Simon Game [Project]
+title: Building a Simon Game + Achievement Unlocked
 permalink: /simon-game/
 excerpt: My final Front-End project on Free Code Camp involved making a Simon Game which challenges your memory by forcing you to remember patterns of button clicks
 ---
