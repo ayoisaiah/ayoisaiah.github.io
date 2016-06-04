@@ -12,7 +12,8 @@ I read about the advantages of static websites and I saw how simple and clean mo
 
 So I forked [Jekyll Now](https://github.com/barryclark/jekyll-now) on Github, did the initial configuration and was up and running in about 15 minutes. I didn't want to move my existing content from WordPress over here but if you're looking to move from WP to Jekyll, there are [several ways](http://www.girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) to transfer your content over.
 
-##Progress report
+Progress report
+---
 
 I've been enjoying myself recently, building stuff and making progress on FreeCodeCamp. Here's a list of the projects I've completed so far:
 
@@ -25,7 +26,8 @@ I was following the curriculum from top to bottom previously but the recent chan
 
 I've also improved my front-end skills by learning SASS. I think it's a fantastic way to write CSS and I'm already reaping the rewards of writing less code and more organisation and structure to my CSS. I still have a long way to go here but I think I'm off to the right start.
 
-##Going forward...
+Going forward...
+---
 
 I'd love to get the [front-end certification](http://www.freecodecamp.com/challenges/claim-your-front-end-development-certificate) by May at the latest. I've been moving slowly on FCC because I had lots of stuff going at the University and I was freelancing for a couple of sites.
 

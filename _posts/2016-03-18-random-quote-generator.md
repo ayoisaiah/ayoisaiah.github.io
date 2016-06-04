@@ -14,7 +14,8 @@ I wanted a more interesting design with a  few animations and I had this idea of
 
 My exams were over so I had enough time on my hands to finish it off.
 
-## Logic
+Logic
+---
 
 I settled on eight categories for the quotes and collected 25 quotes for each one. Each category was an array of objects with quote and author properties so that I could retrieve each one easily.
 
@@ -26,7 +27,8 @@ Then I made a function to put the quotes in the HTML once the next quote button 
 
 If you look at the code you will see that the quotes aren't generated randomly at all but instead they iterate from the first to the last and back again. That's an intentional design choice I made.
 
-## Design
+Design
+---
 
 What annoyed me the most about that first attempt was not even really how it worked, but how it looked. So the design was what I concentrated on for the most part on this project.
 
@@ -62,7 +64,8 @@ All I did from that point was to replace the placeholder images with real images
 
 You can view the [final version](http://codepen.io/ayoisaiah/full/RaGpoM) on CodePen.
 
-##Lessons Learned
+Lessons Learned
+---
 
 In the course of working on this project I learned a few valuable lessons:
 
@@ -74,7 +77,8 @@ In the course of working on this project I learned a few valuable lessons:
 
 I'll love to hear your thoughts on my approach and what things I could improve on so a comment or two will be greatly appreciated.
 
-## Next up
+Next up
+---
 
 I'll be working on the  "[Show the Local Weather](https://www.freecodecamp.com/challenges/show-the-local-weather)" project this weekend and I hope to have it done by Sunday. This will be my first real experience with using an API and I hope I get it right quickly enough.
 

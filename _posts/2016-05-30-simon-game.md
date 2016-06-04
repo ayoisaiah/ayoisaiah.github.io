@@ -13,7 +13,8 @@ The gameplay is really simple. The app has four coloured buttons that will produ
 
 After playing the game a bit, I developed a working logic in my mind of how I could manipulate arrays to produce the same effects.
 
-##Design
+Design
+---
 
 ![Simon Game design]({{ site.baseurl }}/images/post-images/simon-game-design.png  "Simon Game Design")
 
@@ -44,7 +45,8 @@ $(".tile").click(function (e) {
   }
 ```
 
-##Logic
+Logic
+---
 
 My logic for this project was simply to push the number id for each button into `computerArray` when the computer triggers the button presses and simply compare each index in the array with `userArr` which contains ids for each button the user clicks.
 

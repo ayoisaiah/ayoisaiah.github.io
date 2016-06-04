@@ -14,7 +14,8 @@ These were the user stories for this project:
 3. ​If a Twitch streamer is currently streaming, Users can see additional details about what they are streaming.
 4. ​Users will see a placeholder notification if a streamer has closed their Twitch account (or the account never existed).
 
-#Design
+Design
+---
 
 The design of my app is quite similar to the [example app](https://codepen.io/FreeCodeCamp/full/Myvqmo/) given in the project description.
 
@@ -28,7 +29,8 @@ This is something I learnt while working on the [Random Quote Generator project]
 
 ![Twitch Tv Design]({{ site.baseurl }}/images/post-images/twitchtv-design.png  "Twitch Tv Design")
 
-##Thought Process
+Thought Process
+---
 
 First, I made an array of Twitch Streamers and used a `for` loop to iterate through the array and make consecutive AJAX requests so that I could fetch the data for each streamer. 
 
@@ -148,13 +150,15 @@ It also helps so that if a user searches for something like "free code camp" (se
 
 So that was pretty much it for this project. You can view the [final version](http://codepen.io/ayoisaiah/full/MyGjpz/) on Codepen.
 
-##Key Takeaway
+Key Takeaway
+---
 
 Even as I write this blog post, several ways to improve the user experience on my app continue to pop into my head so my key takeaway from this project is:
 
 **Software is never finished.** [It is a process and it is always evolving](http://scripting.com/davenet/1995/09/03/wemakeshittysoftware.html).
 
-##What's next
+What's next
+---
 
 Right now, I'm pushing hard to finish the [Intermediate Algorithm Scripting](https://www.freecodecamp.com/map-aside#nested-collapseIntermediateAlgorithmScripting) section on FCC in the next couple of days so that I can quickly move on to the Advanced Algorithm section.
 

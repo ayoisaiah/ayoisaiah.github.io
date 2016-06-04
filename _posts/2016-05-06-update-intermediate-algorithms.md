@@ -13,7 +13,8 @@ In the end, it was a fairly decent exercise and I've certainly gained some new k
 
 If you're interested in looking at my solutions, they can be found on [Github](https://github.com/ayoisaiah/freeCodeCamp/tree/master/algorithms/intermediate).
 
-## What's next
+What's next
+---
 
 As previously mentioned, I'm moving on to the [Advanced Front-End Development Projects](https://www.freecodecamp.com/map#nested-collapseAdvancedFrontEndDevelopmentProjects) this weekend. Thankfully, before Free Code Camp restructured the curriculum, I had already completed the [JavaScript Calculator](http://codepen.io/ayoisaiah/full/NxMEpe) and [Pomodoro Clock](http://codepen.io/ayoisaiah/full/wMZYvg) projects which means I'll be moving straight to the Tic Tac Toe Project and I hope to have it ready within the next week. 
 
@@ -29,7 +30,8 @@ Additionally, I'll be working through the [Advanced Algorithm Challenges](https:
 
 Nonetheless, I'm aiming to complete this section of the curriculum before the end of next week.
 
-## In Other News...
+In Other News...
+---
 
 I'm taking a programming course this semester at my University in which we'll be learning Java. So I've just signed up for [Udemy's free Java Course](https://www.udemy.com/java-tutorial/learn/v4/overview) which seems to be highly regarded so I'll be working though that in the coming weeks.
 

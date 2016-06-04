@@ -18,7 +18,8 @@ I decided to take it a bit further by adding one more user story
 
 - User can search for weather information of other places.
 
-##Design
+Design
+---
 
 I had a bunch of ideas for the design of this app and I did look at a few completed  projects (without checking the code of course) from the community to see what other folks were displaying in their app and how it looked.
 
@@ -38,7 +39,8 @@ The other thing I struggled with was finding a good colour scheme for the app, a
 
 ![ Weather Project Final Product]({{ site.baseurl }}/images/post-images/weather-project-final.png  " Weather Project Final Product")
 
-##Logic
+Logic
+---
 
 After looking at an example API response from [Open Weather](http://openweathermap.org/current#geo), I figured I'll need to get the longitude and latitude of the user to be able to serve weather information on page load.
 
@@ -106,11 +108,13 @@ I have discovered, through various tests, that this method is not 100% foolproof
 
 You can checkout the full code and effects on [Codepen](http://codepen.io/ayoisaiah/full/LNLzgx/).
 
-##Key takeaway
+Key takeaway
+---
 
 My major takeaway from this project is that I learnt how to access each part of the returned JSON data from the API response and use it in different ways. Although my methodology needs some refining, it's bound to get better with more practice.
 
-#What's next... 
+What's next... 
+---
 
 The next project for me is the [Wikipedia Viewer app](https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer). I'm halfway through already as I write this article so it should be completed by Thursday at the latest.
 

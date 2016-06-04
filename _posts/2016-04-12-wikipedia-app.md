@@ -14,7 +14,8 @@ These were the user stories:
 
 I finished this project rather quickly because I knew exactly what to do after looking at the MediaWiki API which was perhaps due to my experience from the [Weather Project](http://www.ayoisaiah.com/weather-app/).
 
-##Design
+Design
+---
 
 ![Wikipedia Search Engine Homepage]({{ site.baseurl }}/images/post-images/wikipedia-homepage-2.png  "Wikipedia Search Engine Homepage")
 
@@ -44,7 +45,8 @@ So to avoid unexpected behaviour, I ditched this idea and showed the results pag
 
 Overall, my design is nothing revolutionary but so long as it scales well on all device types, it's good enough for me.
 
-##Logic
+Logic
+---
 
 Diving into the code that pulled the results from Wikipedia, it wasn't all that hard to use the API to be honest.
 
@@ -97,7 +99,8 @@ The last thing I did was to make an error function so that if a user's query doe
 
 So that was pretty much it for this project. You can view the final result on [Codepen](http://codepen.io/ayoisaiah/full/Kzvrbp).
 
-##What's next
+What's next
+---
 
 I'm halfway done with the Twitch API Project as I write this. Most of the design is done, only need to figure out a few things with the API. 
 
