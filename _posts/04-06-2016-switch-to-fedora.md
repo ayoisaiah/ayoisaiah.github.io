@@ -12,23 +12,23 @@ I've been a Linux user for a little over a year now and within that time, I've d
 
 Like many other people, my first experience with a Linux distro was Ubuntu and things went generally just fine. 
 
-The one major thing I disliked about Ubuntu was that the software packages available were almost always one or two versions behind and I didn't care much for using outdated software.
+The one major thing I disliked about Ubuntu was that the software packages available in the official repos were almost always one or two versions behind and I didn't care much for using outdated software.
 
-After a while I found out about Elementary OS and was drawn by the impressive design of Pantheon (the default desktop environment) so I switched to that. But because Elementary OS is based on Ubuntu, they rely on more or less the same software packages so that didn't solve the issue of outdated software and I experienced some other annoying things with Elementary which prompted me to look at other non Ubuntu-based distros. 
+After a while I found out about Elementary OS and was drawn by the impressive design of Pantheon (the default desktop environment) so I switched to that. But because Elementary OS is based on Ubuntu, they rely on more or less the same software packages so that didn't solve the issue of outdated software and I experienced some other annoying bugs with Elementary which prompted me to look at other non Ubuntu-based distros. 
 
 I had read about Arch Linux previously but was put off by the installation procedure which was pretty daunting for a Linux beginner like myself. 
 
 Around this time, I discovered [Evo/lution](http://www.evolutionlinux.com/) which is basically a GUI installer for Arch Linux and I found a [great tutorial](http://xmodulo.com/install-arch-linux-easy-way-evolution.html) which walked me through the process of using Evo/lution to get Arch up and running on my computer.
 
-Arch fulfilled all my needs for a while; It had the largest selection of software (via the AUR) I can imagine and all the latest updates were available almost as soon as they are released. It was true *bleeding edge*. 
+Arch fulfilled all my needs for a while; It had the largest selection of software I can imagine (via the AUR) and all the latest updates were available almost as soon as they are released. It was true *bleeding edge*. 
 
 While I was satisfied with Arch for the most part, things did break from time to time but even then, a fix was minutes away with the comprehensive Arch Wiki proving ever sufficient for whatever I needed.
 
 However, a couple of months ago, I noticed things were breaking a little too often and it was no longer interesting to fix stuff all the time. Now, I must admit it's probably all my fault because I didn't do a good job of maintaining my system. 
 
-The thing is, with a rolling release distro like Arch, you have to be careful with a lot of things like the packages you install, how often you update your system e.t.c. I was trying experimental stuff in the testing and unstable repos often so it's no wonder that I ran into problems.
+The thing is, with a rolling release distro like Arch, you have to be careful with a lot of things like the packages you install, how often you update your system e.t.c. I was trying experimental stuff in the testing and unstable repos so it's no wonder that I ran into problems.
 
-So around last month, I decided that while Arch had all the bleeding edge characteristics that I wanted, it ultimately wasn't for me because I couldn't maintain it properly. 
+Around last month, I decided that while Arch had all the bleeding edge characteristics that I wanted, it ultimately wasn't for me because I couldn't maintain it properly. 
 
 What I was looking for was something that combined the stability of Ubuntu and bleeding edge characteristics of Arch. I read about Fedora and it seemed a good fit so I set out to install it on my computer.
 
@@ -72,4 +72,4 @@ As it was interfering with the smooth running of my system, I had to [disable it
 
 Overall, my experience with Fedora is pretty great and as long as things continue to work properly, I will most likely stick with it for the long haul.
 
-That said, I won't rule out trying out Arch again in the future because I truely love the package manager *pacman* and the fact that it is totally community driven. Perhaps as I become a more experienced Linux user, I'll be able to handle things more carefully.
+That said, I won't rule out trying out Arch again in the future because I truely love the package manager *pacman* and the fact that it is totally community driven. Perhaps as I become a more competent Linux user, I'll be able to handle things more carefully.
