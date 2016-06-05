@@ -19,13 +19,13 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $georgia;
+  font: 18px/1.4 $lato;
   color: $darkGray;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 768px; //740
   padding: 0 10px;
   width: 100%;
 }
@@ -244,6 +244,7 @@ nav {
 //
 
 .entry p {
+  font-family: $georgia;
   line-height: 1.8em;
 }
 
