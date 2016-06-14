@@ -27,7 +27,7 @@ First up, the homepage has the headline, search box and buttons at the centre of
 
 When the page loads, focus is given to the search box so that the user can begin typing his query immediately.
 
-```
+```javascript
 window.onload = function() {
     document.getElementById("wiki-search-input").focus();
 };
@@ -54,7 +54,7 @@ I tried to tackle this challenge using the jQuery `$.getJSON` method to make the
 
 On further investigation, I found another jQuery method  `$.ajax()` on Stack Overflow which worked. Apparently, I had to specify the dataType as "JSONP" (JSON with Padding) to get it to work.
 
-```
+```javascript
 function ajax (keyword) {
 	$.ajax({ 
 		url: "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + keyword + "&prop=info&inprop=url&utf8=&format=json",
@@ -74,7 +74,6 @@ function ajax (keyword) {
 		}
 	});
 }
-
 ```
 
 The trickiest part of this project for me was getting the search results to link to their corresponding pages on Wikipedia. I spent quite a bit of time figuring how best to go about this.
@@ -85,14 +84,14 @@ So "JavaScript Libraries" becomes "JavaScript_Libraries" in the url.
 
 Simply by grabbing each title, I replaced the spaces with underscores using a bit of Regex (which admittedly I don't know very well yet) and affixed it to the corresponding search result.
 
-```
+```javascript
 var title = callback.query.search[m].title;
 var url = title.replace(/ /g, "_");
 ...
 
 $(".title-" + m).html("<a href='https://en.wikipedia.org/wiki/" + url + "' target='_blank'>" + callback.query.search[m].title + "</a>");
-
 ```
+
 The last thing I did was to make an error function so that if a user's query does not match any results, it will simply display a few tips on the page to help the user improve search.
 
 ![Wikipedia - Error Page]({{ site.baseurl }}/images/post-images/wikipedia-error-page.png  "Wikipedia - Error Page")

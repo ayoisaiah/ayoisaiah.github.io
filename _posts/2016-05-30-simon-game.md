@@ -26,14 +26,13 @@ One thing I had to deal with was getting the app to play a unique tone when each
 
 As I have never attempted to play audio files in a web browser, I had to search Stack Overflow to find a way of doing this and specifically how to play the sound on button press. The [solution I found](https://stackoverflow.com/questions/18826147/javascript-audio-play-on-click) seemed a pretty neat way of doing it so I simply modified the code to make it work for my situation.
 
-```
-<!-- HTML -->
+```html
 <audio src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" id="sound-0"></audio><audio src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" id="sound-1"></audio>
 <audio src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" id="sound-2"></audio>
 <audio src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" id="sound-3"></audio>
+```
 
-/*JavaScript*/
-
+```javascript
 $(".tile").click(function (e) {
 	var idNum = e.currentTarget.id.substr(5); //returns the tile number
 	function playAudio () {

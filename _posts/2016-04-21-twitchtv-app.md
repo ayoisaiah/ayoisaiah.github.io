@@ -34,7 +34,7 @@ Thought Process
 
 First, I made an array of Twitch Streamers and used a `for` loop to iterate through the array and make consecutive AJAX requests so that I could fetch the data for each streamer. 
 
-```
+```javascript
 var twitchStreamers = ["dreamhackcs", "skyzhar", "freecodecamp", "faceittv", "comster404", "brunofin", "terakilobyte", "robotcaleb", "sheevergaming", "esl_sc2", "ogamingsc2", "jacksofamerica"];
 
 ...
@@ -66,7 +66,7 @@ function ajax () {
 
 If the AJAX request is successful, it calls another function `fetchData()` which simply fetches the required data from the JSON output such as the username, status, url and display picture for each channel and calls the `updateHTML()` function which simply takes the data and updates the DOM. 
 
-```
+```javascript
 function fetchData (data) {
 
 		if (data.stream === null) {
@@ -96,7 +96,7 @@ function fetchData (data) {
 
 For offline streamers, there was an extra step. I had to make another API call using https://api.twitch.tv/kraken/channels/ to fetch data for each channel because the first call (using https://api.twitch.tv/kraken/streams/) provided no info about the channels except the fact that they were not online at that moment.
 
-```
+```javascript
 	function updateOfflineUsers () { //If users are offline, make new ajax request to find user info
 		$.ajax({
 			url: "https://api.twitch.tv/kraken/channels/" + url,
@@ -123,7 +123,7 @@ This was when I added a fifth user story:
 
 So I made a search function that takes the input of the user and uses it to make the API call:
 
-```
+```javascript
 	function search () {
 		$(".online, .offline, .unavailable").empty();
 		showAll();	

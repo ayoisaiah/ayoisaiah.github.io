@@ -48,7 +48,7 @@ The easiest way to do this was to use the HTML5 Geolocation API which was pretty
 
 I stored the returned values in already declared variables and used them to make the AJAX request.
 
-```
+```javascript
 if (navigator.geolocation) {
 
 	//Return the user's longitude and latitude on page load using HTML5 geolocation API
@@ -76,7 +76,7 @@ if (navigator.geolocation) {
 
 The Open Weather API gave me a way to update the location, temperature and weather description but I still needed to find a way to update the local time. After a bit of searching I found another API at [Geonames.org](http://geonames.org/) which took care of this.
 
-```
+```javascript
 $.getJSON('http://api.geonames.org/timezoneJSON?lat=' + latitude + '&lng=' + longitude + '&username=ayoisaiah', function(timezone) {
 			var rawTimeZone = JSON.stringify(timezone);
 			var parsedTimeZone = JSON.parse(rawTimeZone);
@@ -90,7 +90,7 @@ The last thing I did was to update the weather icon on the conditions in the use
 
 So I considered a few possible scenarios such as clear sky, cloud, snow, sunny, rain e.t.c and wrote a bunch of conditional statements to check if the weather description contained one of keywords and then update the weather icon.
 
-```
+```javascript
 //Update Weather animation based on the returned weather description
 
 	var weather = json.weather[0].description;
