@@ -19,7 +19,7 @@ So I forked [Jekyll Now](https://github.com/barryclark/jekyll-now) on Github, di
 
 ## Progress report
 
-I've been enjoying myself recently, building stuff and making progress on FreeCodeCamp. Here's a list of the projects I've completed so far:
+I've been enjoying myself recently, building stuff and making progress on Free Code Camp. Here's a list of the projects I've completed so far:
 
 - [Random Quote Generator](http://codepen.io/ayoisaiah/full/RaGpoM)
 - [Basic Portfolio Website](http://codepen.io/ayoisaiah/full/JGjZPQ)
@@ -33,6 +33,8 @@ I've also improved my Front-End skills by learning Sass. I think it's a fantasti
 ## Going forward...
 
 I'd love to get the [Front-End certification](http://www.freecodecamp.com/challenges/claim-your-front-end-development-certificate) by May at the latest. I've been moving slowly on FCC because I had lots of stuff going at the University and I was freelancing for a couple of sites.
+
+**Update(19-05-2016)**: I was able to claim the Front-End certificate on schedule. [Read the blogpost]({{ site.baseurl }}/simon-game/).
 
 It sucked that I could not dedicate a substantial portion of my time to FCC and for this reason, I decided to clear out my chest of commitments a little bit and free up more time to code so that I can move more quickly.
 
