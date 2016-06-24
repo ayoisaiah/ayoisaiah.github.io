@@ -23,7 +23,7 @@
 		}
 
 		a:hover {
-			color: $light-grey;
+			color: lighten($grey, 20%);
 		}
 	}
 
