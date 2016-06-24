@@ -7,6 +7,13 @@
 		display: inline-block;
 	}
 
+	a {
+		text-decoration: none;
+		&:hover, &:focus, &:visited, &:active {
+			text-decoration: none;
+		}
+	}
+
 	@for $i from 1 through length($social-colors) {
 		.btn-#{$i} {
 			$btn-color: nth($social-colors, $i);
@@ -19,4 +26,11 @@
 			@include clickable-button($btn-color);
 		}
 	}
+
+	@media screen and (max-width: $mobile-break) {
+		ul {
+			text-align: center;
+		}
+	}
+
 }
