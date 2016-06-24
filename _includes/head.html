@@ -1,0 +1,53 @@
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article:
+http://ogp.me/ns/article#">
+  <!-- Global stuff -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+
+  <!-- Robots & indexing -->
+  {% if page.external %}
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="refresh" content="0;url={{ page.external.url }}" />
+  {% else %}
+  <meta name="robots" content="index,follow"> 
+  <meta name="revisit-after" content="1 days"> 
+  {% endif %}
+
+  <!-- Page specific content -->
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% if page.tags %}
+  <meta name="keywords" content="{{ page.tags|join: ',' }}" />
+  {% endif %}
+  <meta name="author" content="Ayo Isaiah"> 
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  <!-- Stylesheets -->
+  <link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400' rel='stylesheet' type='text/css'> -->
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/rss" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/images/favicon.png">
+  <!--[if IE]><link rel="shortcut icon" href="/assets/images/favicon.ico"><![endif]-->
+
+  <!-- Open Graph data -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:site_name" content="AyoIsaiah.com" />
+  
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@ayisaiah">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:creator" content="@ayisaiah">
+</head>

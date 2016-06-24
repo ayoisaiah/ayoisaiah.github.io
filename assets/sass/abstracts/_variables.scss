@@ -1,0 +1,27 @@
+$container-width: 100%;
+$container-width-larger-than-mobile: 100%;
+$container-width-larger-than-phablet: 100%;
+$nav-width: 240px;
+$site-max-width: 1600px;
+$break-point: 960px;
+$mobile-break: 680px;
+
+//Colors
+$very-dark-grey: #1F2223;
+$grey: #bebdb5;
+$light-grey: #d5d5d5;
+$white: #fff;
+$white-grey: #f2f2f2;
+$black: #111;
+$facebook: #3b5998;
+$twitter: #1A8FD7;
+$reddit: #333;
+$social-colors: ($facebook, $twitter, $reddit);
+$link-blue: #0F46FF;
+
+//Fonts
+$rem-default: 10px;
+$text-font-stack: "Montserrat Light", sans-serif;
+$headline-font-stack: "Bitter", serif;
+
+$heading-sizes: (6rem, 4rem, 3rem, 2rem, 1.5rem, 1rem);

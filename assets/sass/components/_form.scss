@@ -1,0 +1,26 @@
+input[type="email"] {
+	width: 100%;
+	&:focus {
+		border-color: $link-blue;
+	}
+}
+
+input[type="submit"] {
+	background-color: $link-blue;
+	border-color: $link-blue;
+	color: $white-grey;
+	&:hover {
+		color: $white-grey;
+		background-color: lighten($link-blue, 5%);
+	}
+	&:active {
+		color: $white-grey;
+	}
+}
+
+
+form {
+	.column, .columns {
+		margin-left: 1%;
+	}
+}

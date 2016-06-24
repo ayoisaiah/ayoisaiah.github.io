@@ -1,0 +1,87 @@
+//Adapted from tutorial on W3schools http://www.w3schools.com/howto/howto_js_topnav.asp
+
+@media screen and (min-width: $break-point) {
+	.navbar-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: $break-point) {
+	
+	.navbar-mobile {
+		width: 100%;
+		z-index: 3000;
+		position: fixed;
+		top: 0;
+	}
+
+	ul.topnav, ul.topnav li {
+		margin: 0;
+		padding: 0;
+		// text-transform: uppercase;
+	}
+
+	ul.topnav {
+		overflow: hidden;
+		background-color: $very-dark-grey;
+	}
+
+	ul.topnav li {
+		list-style-type: none;
+		float: left;
+
+		&:not(:first-child) {
+			float: right;
+		}
+	}
+
+	ul.topnav a {
+		display: inline-block;
+		color: $white-grey;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition: 0.3s;
+		font-size: 1.5rem;
+		&:hover {
+			background-color: $black;
+			color: $white-grey;
+		}
+	}
+
+	ul.topnav .menu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: $mobile-break) {
+
+	ul.topnav {
+		li {
+			display: none;
+			&.menu {
+				float: right;
+				display: inline-block;
+			}
+		}
+	}
+
+	ul.topnav.responsive {
+		position: relative;
+		li.menu {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		li {
+			float: none;
+			display: inline;
+			a {
+				display: block;
+				text-align: left;
+			}
+		}
+	}
+}
+
+

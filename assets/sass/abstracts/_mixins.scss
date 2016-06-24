@@ -1,0 +1,37 @@
+@mixin headingFontStack ($size, $weight) {
+	font-family: $headline-font-stack;
+	font-weight: $weight;
+	font-size: $size;
+	color: $very-dark-grey;
+}
+
+@mixin clickable-button ($color) {
+	color: $white;
+	background-color: $color;
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	box-shadow: 0 0 0 1px $color inset, 0 0 0 2px $color inset, 0 8px 0 0 $color, 0 8px 0 1px $color, 0 8px 8px 1px $color;
+	-moz-transition: 0.07s;
+  	-o-transition: 0.07s;
+  	-webkit-transition: 0.07s;
+  	transition: 0.07s;
+  	@media screen and (max-width: 550px) {
+  		//height: 125px;
+  	}
+}
+
+@mixin clickable-button-hover-focus ($color) {
+	background-color: lighten($color, 5%);
+	box-shadow: 0 0 0 1px $color inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 10px 0 0 darken($color, 5%), 0 10px 0 1px rgba(0, 0, 0, 0.4), 0 10px 8px 1px rgba(0, 0, 0, 0.6);
+	top: -2px;
+}
+
+@mixin clickable-button-active ($color) {
+	box-shadow: 0 0 0 1px darken($color, 5%) inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 0 0 1px rgba(0, 0, 0, 0.4);
+	background-color: lighten($color, 5%);
+	-moz-transform: translateY(10px);
+	-ms-transform: translateY(10px);
+	-webkit-transform: translateY(10px);
+	transform: translateY(10px);	
+}

@@ -1,0 +1,10 @@
+<script>
+	var wordCount = document.getElementById("word-count-number").innerHTML;
+	var readingTime = Math.round(wordCount / 240);
+	document.getElementById("reading-time-number").innerHTML = readingTime;
+
+	function menu() {
+		document.getElementById("topnav").classList.toggle("responsive");
+		console.log("yay");
+	}
+</script>

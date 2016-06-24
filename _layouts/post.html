@@ -1,40 +1,58 @@
 ---
 layout: default
 ---
+<article class="article twelve columns" itemscope itemtype="http://schema.org/BlogPosting" id="article">
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+  <header class="post-header">
 
-  <div class="entry">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }} <small class="subtitle">{{ page.subtitle }}</small></h1>
+
+    <div class="post-meta">
+
+	    <span class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} - </time></span>
+	    
+	    {% if page.content %} 
+	    
+				<span class="post-word-count"> <span id="word-count-number">{{ page.content | number_of_words }}</span> words - </span>
+
+	    {% endif %}
+
+	    <span class="post-reading-time"><span id="reading-time-number"></span> minute read</span>
+	    
+    </div>
+
+    {% if page.image %}
+			<div class="featured-image"><img src="{{ site.baseurl }}/images/{{ page.image }}" alt="image"></div>
+		{% endif %}
+
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
     {{ content }}
-  <!--   {% include share-buttons.html %} -->
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-  <div id="disqus_thread"></div>
-`<script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    
-    var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//ayoisaiah.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<script id="dsq-count-scr" src="//ayoisaiah.disqus.com/count.js" async></script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-  {% include disqus.html %}
+	{% include share-buttons.html %}
+
 </article>
+<script>
+    // /**
+    //  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    //  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+    //  */
+    
+    // var disqus_config = function () {
+    //     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    //     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    // };
+    
+    // (function() {  // DON'T EDIT BELOW THIS LINE
+    //     var d = document, s = d.createElement('script');
+        
+    //     s.src = '//ayoisaiah.disqus.com/embed.js';
+        
+    //     s.setAttribute('data-timestamp', +new Date());
+    //     (d.head || d.body).appendChild(s);
+    // })();
+</script>
+<!-- <script id="dsq-count-scr" src="//ayoisaiah.disqus.com/count.js" async></script> -->
+<!-- {% include disqus.html %} -->

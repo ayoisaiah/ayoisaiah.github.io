@@ -1,0 +1,9 @@
+.homepage {
+	h1 {
+		text-align: left;
+		font-size: 6rem;
+		@media screen and (max-width: $break-point) {
+			font-size: 4rem;
+		}
+	}
+}

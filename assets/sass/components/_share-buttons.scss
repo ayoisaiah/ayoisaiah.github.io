@@ -1,0 +1,22 @@
+.share-buttons {
+	width: 100%;
+	margin: 0px auto;
+
+	ul, li {
+		list-style-type: none;
+		display: inline-block;
+	}
+
+	@for $i from 1 through length($social-colors) {
+		.btn-#{$i} {
+			$btn-color: nth($social-colors, $i);
+			&:hover, &:focus {
+				@include clickable-button-hover-focus($btn-color);
+			}
+			&:active {
+				@include clickable-button-active($btn-color);
+			}
+			@include clickable-button($btn-color);
+		}
+	}
+}

@@ -1,0 +1,13 @@
+.content {
+	position: relative;
+	background-color: $white;
+	margin-left: $nav-width;
+	padding-top: 40px;
+}
+
+@media screen and (max-width: $break-point) {
+	.content {
+		margin-left: 0;
+		margin-top: 3em;
+	}
+}

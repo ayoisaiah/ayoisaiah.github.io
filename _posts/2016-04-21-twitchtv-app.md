@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Building a TwitchTv App [Project]
+title: TwitchTv App [Project]
 permalink: /twitch-tv-project/
-excerpt: How I tackled the last intermediate front-end project on Free Code Camp
+excerpt: My workflow for building a TwitchTv app as part of Free Code Camp's curriculum
+image: twitchtv-design.png
 ---
 
 Last week, I tackled the last of the Intermediate Front-End Projects which involved building a [TwitchTv App](https://www.freecodecamp.com/challenges/use-the-twitchtv-json-api) using the Twitch API to display the status of a set of Twitch Streamers.
@@ -14,8 +15,7 @@ These were the user stories for this project:
 3. ​If a Twitch streamer is currently streaming, Users can see additional details about what they are streaming.
 4. ​Users will see a placeholder notification if a streamer has closed their Twitch account (or the account never existed).
 
-Design
----
+## Design
 
 The design of my app is quite similar to the [example app](https://codepen.io/FreeCodeCamp/full/Myvqmo/) given in the project description.
 
@@ -27,10 +27,7 @@ For the profile pictures, I used background images instead of `<img>` tags. This
 
 This is something I learnt while working on the [Random Quote Generator project](http://ayoisaiah.com/random-quote-generator/) and it was nice to put it to practice again here.
 
-![Twitch Tv Design]({{ site.baseurl }}/images/post-images/twitchtv-design.png  "Twitch Tv Design")
-
-Thought Process
----
+## Thought Process
 
 First, I made an array of Twitch Streamers and used a `for` loop to iterate through the array and make consecutive AJAX requests so that I could fetch the data for each streamer. 
 
@@ -146,22 +143,20 @@ I used a bit of regex to remove special characters and spaces from the users que
 
 It also helps so that if a user searches for something like "free code camp" (seperating whole words with spaces) instead of "freecodecamp", it still returns the expected relevant result.
 
-![Twitch Tv App design]({{ site.baseurl }}/images/post-images/twitchtv-search.png  "Twitch Tv App design")
+![Twitch Tv App design]({{ site.baseurl }}/images/twitchtv-search.png  "Twitch Tv App design")
 
 So that was pretty much it for this project. You can view the [final version](http://codepen.io/ayoisaiah/full/MyGjpz/) on Codepen.
 
-Key Takeaway
----
+## Key Takeaway
 
 Even as I write this blog post, several ways to improve the user experience on my app continue to pop into my head so my key takeaway from this project is:
 
 **Software is never finished.** [It is a process and it is always evolving](http://scripting.com/davenet/1995/09/03/wemakeshittysoftware.html).
 
-What's next
----
+## What's next
 
 Right now, I'm pushing hard to finish the [Intermediate Algorithm Scripting](https://www.freecodecamp.com/map-aside#nested-collapseIntermediateAlgorithmScripting) section on FCC in the next couple of days so that I can quickly move on to the Advanced Algorithm section.
 
 My (short-term) goal remains claiming the [Front-End Certification](http://www.freecodecamp.com/challenges/claim-your-front-end-development-certificate) by the end of May and if all goes well, i should be able to get it by then. Wish me luck.
 
-If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:ayisaiah@gmail.com).
+If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:sudo@ayoisaiah.com).

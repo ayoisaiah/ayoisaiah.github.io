@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Building a Weather App [Project]
+title: Weather App [Project]
 permalink: /weather-app/
 excerpt: Last week's project involved building an app to show the local weather of any location. Read on to find out how I did it.
-description: Last week's project involved building an app to show the local weather of any location.
+image: weather-featured.png
 ---
 
 Last week's project involved building an app to show the local weather of any location.
@@ -18,8 +18,7 @@ I decided to take it a bit further by adding one more user story
 
 - User can search for weather information of other places.
 
-Design
----
+## Design
 
 I had a bunch of ideas for the design of this app and I did look at a few completed  projects (without checking the code of course) from the community to see what other folks were displaying in their app and how it looked.
 
@@ -31,16 +30,13 @@ I also liked the animated weather icon in the [example project](http://codepen.i
 
 As usual, I put everything down in my [Workflowy](https://workflowy.com/invite/2dbe7482.lnx).
 
-![Weather Project design plan]({{ site.baseurl }}/images/post-images/weather-project-design-plan.png  "Weather Project design plan")
+![Weather Project design plan]({{ site.baseurl }}/images/weather-project-design-plan.png  "Weather Project design plan")
 
 Setting everything up was pretty straight forward except finding a suitable animated icon set. I had to search a bit before I found [Skycons](https://darkskyapp.github.io/skycons/) which is what I ended up using.
 
 The other thing I struggled with was finding a good colour scheme for the app, and this is something I almost always struggle with. I experimented with different combinations before landing the final product.
 
-![ Weather Project Final Product]({{ site.baseurl }}/images/post-images/weather-project-final.png  " Weather Project Final Product")
-
-Logic
----
+## Logic
 
 After looking at an example API response from [Open Weather](http://openweathermap.org/current#geo), I figured I'll need to get the longitude and latitude of the user to be able to serve weather information on page load.
 
@@ -108,16 +104,14 @@ I have discovered, through various tests, that this method is not 100% foolproof
 
 You can checkout the full code and effects on [Codepen](http://codepen.io/ayoisaiah/full/LNLzgx/).
 
-Key takeaway
----
+## Key takeaway
 
 My major takeaway from this project is that I learnt how to access each part of the returned JSON data from the API response and use it in different ways. Although my methodology needs some refining, it's bound to get better with more practice.
 
-What's next... 
----
+## What's next... 
 
 The next project for me is the [Wikipedia Viewer app](https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer). I'm halfway through already as I write this article so it should be completed by Thursday at the latest.
 
-If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:ayisaiah@gmail.com).
+If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:sudo@ayoisaiah.com).
 
 Thanks for reading.

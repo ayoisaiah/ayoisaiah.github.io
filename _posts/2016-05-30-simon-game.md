@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Building a Simon Game + Achievement Unlocked
+title: Simon Game [Project]
 permalink: /simon-game/
 excerpt: My final Front-End project on Free Code Camp involved making a Simon Game which challenges your memory by forcing you to remember patterns of button clicks
+image: simon-game.jpg
 ---
 
 My final Front-End project on Free Code Camp involved making a Simon Game which is basically a game that tests your memory by forcing you to remember the exact patterns of random button presses.
@@ -13,10 +14,7 @@ The gameplay is really simple. The app has four coloured buttons that will produ
 
 After playing the game a bit, I developed a working logic in my mind of how I could manipulate arrays to produce the same effects.
 
-Design
----
-
-![Simon Game design]({{ site.baseurl }}/images/post-images/simon-game-design.png  "Simon Game Design")
+## Design
 
 Most of the Simon Game projects I've seen were built in a similar style to the [example project](https://codepen.io/FreeCodeCamp/full/obYBjE) but I wanted to add a little bit of uniqueness to my game so I settled on using a 2x2 grid of large buttons instead.
 
@@ -44,14 +42,13 @@ $(".tile").click(function (e) {
   }
 ```
 
-Logic
----
+## Logic
 
 My logic for this project was simply to push the number id for each button into `computerArray` when the computer triggers the button presses and simply compare each index in the array with `userArr` which contains ids for each button the user clicks.
 
 If the indexes in both arrays are all identical (that is if they contain the same numbers), the game progresses to the next round but if the user fails to match the order of button presses, an alert is displayed and the game is ended.
 
-```
+```javascript
 	if (computerArr[kount] !== userArr[kount]) {
 		alert('Ouch you lose!');
 		endGame();
@@ -66,6 +63,6 @@ This was one of my favourite projects so far and it proved fitting way to comple
 
 I hope I can kick on from here and continue to improve my code and build great things.
 
-![Front-End Certificate]({{ site.baseurl }}/images/post-images/front-end-cert.png  "Front-End Certificate")
+![Front-End Certificate]({{ site.baseurl }}/images/front-end-cert.jpg  "Front-End Certificate")
 
-*If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:ayisaiah@gmail.com).*
+*If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:sudo@ayoisaiah.com).*

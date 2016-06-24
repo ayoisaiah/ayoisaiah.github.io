@@ -1,0 +1,22 @@
+html {
+	font-size: $rem-default;
+}
+
+body {
+	font-family: $text-font-stack;
+}
+
+.main {
+	position: relative;
+	max-width: $site-max-width;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+ul {
+	list-style: none;
+}
+
+code {
+	overflow: auto;
+}
