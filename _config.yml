@@ -16,6 +16,9 @@ markdown: kramdown
 kramdown: 
   input: GFM
 
+#Analytics
+google_analytics: UA-74640522-1
+
 #Pagination
 paginate: 6
 paginate_path: "/blog/page:num"
