@@ -8,9 +8,9 @@ image: classlist-featured.png
 customjs: https://cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js
 ---
 
-I was doing some work recently and needed to change some CSS rules based on the classes in the HTML, which is indeed a very common thing to do. Previously, I wholly relied on jQuery to handle DOM manipulations for me.
+I was doing some work recently and needed to change some CSS rules based on the classes in the HTML, which is indeed a very common thing to do. 
 
-However, in this case, it didn't make sense to import the whole jQuery library just to perform this basic DOM manipulation. There had to be a better way, and indeed there was.
+In the past, I wholly relied on jQuery to handle DOM manipulations for me. However, in this case, it didn't make sense to import the whole jQuery library just to perform this basic DOM manipulation. There had to be a better way, and indeed there was.
 
 A quick search presented me with a variety of options to achieve what I was after but I went with the `classList` method because it's easy to understand and browser support was good.
 
