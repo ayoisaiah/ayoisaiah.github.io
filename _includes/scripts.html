@@ -8,3 +8,6 @@
 		console.log("yay");
 	}
 </script>
+{% if page.customjs %}
+<script src="{{ page.customjs }}"></script>
+{% endif %}
