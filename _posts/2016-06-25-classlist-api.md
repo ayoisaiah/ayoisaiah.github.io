@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to manuipulate classes using the classList API
-subtitle: forget jQuery
+subtitle: you don't need jQuery
 permalink: /manipulating-classes-without-jquery/
 excerpt: Learn how to easily add, remove or toggle classes using the HTML5 classList API
 image: classlist-featured.png
