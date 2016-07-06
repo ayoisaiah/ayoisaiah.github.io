@@ -8,22 +8,23 @@
 	}
 
 	a {
+		color: #fff;
 		text-decoration: none;
 		&:hover, &:focus, &:visited, &:active {
 			text-decoration: none;
+			color: #fff;
 		}
 	}
-
+	.btn {
+		width: 200px;
+	}
 	@for $i from 1 through length($social-colors) {
 		.btn-#{$i} {
 			$btn-color: nth($social-colors, $i);
-			&:hover, &:focus {
-				@include clickable-button-hover-focus($btn-color);
+			&:hover, &:focus, &:active {
+				background-color: lighten($btn-color, 10%);
 			}
-			&:active {
-				@include clickable-button-active($btn-color);
-			}
-			@include clickable-button($btn-color);
+			background-color: $btn-color;
 		}
 	}
 
