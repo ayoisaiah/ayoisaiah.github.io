@@ -1,8 +1,9 @@
 article {
 	h1 {
 		small {
+			font-family: $text-font-stack;
 			color: $grey;
-			font-weight: 400;
+			font-weight: 500;
 			font-size: 2.5rem;
 		}
 	}
