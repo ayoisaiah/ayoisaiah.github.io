@@ -9,6 +9,7 @@
 @media screen and (max-width: $break-point) {
 	
 	.navbar-mobile {
+		font-family: $utility-font;
 		width: 100%;
 		z-index: 3000;
 		position: fixed;

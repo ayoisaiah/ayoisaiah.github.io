@@ -4,8 +4,8 @@
 			 url("../fonts/Montserrat-Light.ttf") format("truetype");
 }
 
-$sizes: (4rem, 3.5rem, 2.5rem, 2.0rem, 1.5rem, 1.2rem);
-$weights: (700, 600, 600, 600, 600, 600);
+$sizes: (3.5rem, 2.8rem, 2.3rem, 1.5rem, 1.2rem, 1rem);
+$weights: (700, 400, 400, 400, 400, 400);
 
 @for $i from 1 through length($sizes) {
 	h#{$i}{
@@ -18,10 +18,13 @@ $weights: (700, 600, 600, 600, 600, 600);
 
 h1 {
 	text-align: center;
+	@media screen and (max-width: $mobile-break) {
+		font-size: 2.8rem;
+	}
 }
 
 p {
-	font-size: 1.9rem;
+	font-size: 1.8rem;
 	font-weight: 400;
 	color: #333;
 }

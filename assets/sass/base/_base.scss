@@ -25,3 +25,13 @@ code {
 li:not(.social-media-share):not(.navbar-link):not(.nav-link) {
 	margin-left: 40px;
 }
+
+::selection {
+	background: $very-dark-grey;
+	color: $white-grey;
+}
+
+::-moz-selection {
+	background: $very-dark-grey;
+	color: $white-grey;
+}
