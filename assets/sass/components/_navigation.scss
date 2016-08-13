@@ -1,87 +1,63 @@
-//Adapted from tutorial on W3schools http://www.w3schools.com/howto/howto_js_topnav.asp
+.navbar {
+	font-family: $utility-font;
+	width: 100%;
+	z-index: 3000;
+	position: absolute;
+	top: 0;
+	border-bottom: 1px solid $light-grey;
+}
 
-@media screen and (min-width: $break-point) {
-	.navbar-mobile {
-		display: none;
+ul.topnav, ul.topnav li {
+	margin: 0;
+	padding: 0;
+	// text-transform: uppercase;
+}
+
+ul.topnav {
+	overflow: hidden;
+	background-color: $white;
+}
+
+ul.topnav li {
+	list-style-type: none;
+	float: left;
+	padding: 14px 16px;
+
+	&:not(:first-child) {
+		float: right;
 	}
 }
 
-@media screen and (max-width: $break-point) {
-	
-	.navbar-mobile {
-		font-family: $utility-font;
-		width: 100%;
-		z-index: 3000;
-		position: fixed;
-		top: 0;
+ul.topnav a {
+	display: inline-block;
+	color: $very-dark-grey;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.8rem;
+	&:hover {
+		text-decoration: underline;
 	}
+}
 
-	ul.topnav, ul.topnav li {
-		margin: 0;
-		padding: 0;
-		// text-transform: uppercase;
-	}
+ul.topnav .menu {
+	display: none;
+}
 
-	ul.topnav {
-		overflow: hidden;
-		background-color: $very-dark-grey;
-	}
-
-	ul.topnav li {
-		list-style-type: none;
-		float: left;
-
-		&:not(:first-child) {
-			float: right;
-		}
-	}
-
-	ul.topnav a {
-		display: inline-block;
-		color: $white-grey;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		transition: 0.3s;
-		font-size: 1.5rem;
-		&:hover {
-			background-color: $black;
-			color: $white-grey;
-		}
-	}
-
-	ul.topnav .menu {
-		display: none;
-	}
+.nav-links {
+	display: inline-block;
+	float: right;
 }
 
 @media screen and (max-width: $mobile-break) {
 
-	ul.topnav {
-		li {
-			display: none;
-			&.menu {
-				float: right;
-				display: inline-block;
-			}
-		}
+	li.title, .nav-links {
+		display: flex;
+		justify-content: center;
+		width: 100%;
 	}
 
-	ul.topnav.responsive {
-		position: relative;
-		li.menu {
-			position: absolute;
-			right: 0;
-			top: 0;
-		}
-		li {
-			float: none;
-			display: inline;
-			a {
-				display: block;
-				text-align: left;
-			}
-		}
+	.nav-links {
+		float: none;
 	}
 }
 

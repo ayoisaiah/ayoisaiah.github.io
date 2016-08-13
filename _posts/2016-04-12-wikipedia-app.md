@@ -1,9 +1,9 @@
 ---
 layout: post
-title: WikiPedia Search Engine [Project]
+title: WikiPedia Search Engine
 permalink: /wikipedia-search-engine/
 excerpt: My workflow for building a Wikipedia Viewer as part of Free Code Camp's curriculum
-image: wikipedia-homepage.png
+teaser: wikipedia-homepage.png
 ---
 
 My next task on FreeCodeCamp involved building a [Wikipedia Viewer](https://www.freecodecamp.com/challenges/build-a-wikipedia-viewer) app which will pull article entries from Wikipedia using the MediaWiki Web API.

@@ -1,17 +1,18 @@
 input[type="email"] {
+	margin-top: 20px;
 	width: 100%;
 	&:focus {
-		border-color: $link-blue;
+		border-color: $light-grey;
 	}
 }
 
 input[type="submit"] {
-	background-color: $link-blue;
-	border-color: $link-blue;
+	float: left;
+	background-color: $very-dark-grey;
+	border-color: $very-dark-grey;
 	color: $white-grey;
 	&:hover {
 		color: $white-grey;
-		background-color: lighten($link-blue, 5%);
 	}
 	&:active {
 		color: $white-grey;
@@ -20,7 +21,21 @@ input[type="submit"] {
 
 
 form {
-	.column, .columns {
-		margin-left: 1%;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	width: 100%;
+	padding: 1em 0.5em;
+	background-color: #F8F8F9;
+
+	h3 {
+		margin-bottom: 0;
+	}
+
+	span {
+		font-family: $text-font-stack;
+		color: $grey;
+		font-weight: 500;
+		font-size: 2rem;
 	}
 }

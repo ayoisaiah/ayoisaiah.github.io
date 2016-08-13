@@ -5,5 +5,26 @@ img {
 }
 
 .featured-image {
-	margin: 20px auto;
+	margin-top: 20px;
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
 }
+
+figure {
+	margin-top: 2em;
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
+	margin-bottom: 2em;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 1.5rem;
+	color: $grey;
+}
+
+// @media screen and (max-width: 960px) {
+// 	figure {
+// 		margin: 0;
+// 	}
+// }

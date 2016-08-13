@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Weather App [Project]
+title: Weather App
 permalink: /weather-app/
 excerpt: Last week's project involved building an app to show the local weather of any location. Read on to find out how I did it.
-image: weather-featured.png
+teaser: weather-featured.png
 ---
 
 Last week's project involved building an app to show the local weather of any location.

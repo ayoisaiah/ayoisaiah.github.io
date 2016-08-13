@@ -9,18 +9,9 @@ title: Ayo Isaiah
 	<p><a href="{{ site.baseurl }}/about">Read my full story</a></p>
 	<hr>
 	<h2>Writing</h2>
-	<p>I write an awful lot of articles and I've been featured on a number of online publications. On this blog, I will be publishing a series of blogposts and tutorials tailored for the complete beginner.</p>
+	<p>I write a lot of articles and I've been featured on a number of online publications. On this blog, I will be posting about the technologies I care about as well as in-depth tutorials on web development tailored for the complete beginner.</p>
 	<p>My latest article is titled {% for post in site.posts limit:1 %}{% if post.external %}<a href="{{ post.link }}" target="_blank">{{ post.title }} [{{ post.host }}]</a>{% else %}<a href="{{ post.url }}">{{ post.title }}</a>{% endif %}.{% endfor %}</p>
 	<p><a href="{{ site.baseurl }}/blog/">View my articles</a></p>
 	<hr>
-	<h2>Weekly Email Newsletter</h2>
-	<p>I've been teaching myself to code for over a year now and for the first few months, I struggled and achieved next to nothing. But over time, I learned strategies that helped me accelerate my learning. And I want to share these tips and strategies with you.</p>
-	<p><strong>My email newsletter will help you</strong></p>
-	<ul>
-	<li>Figure out where to start and the best resources for learning to code</li>
-	<li>Avoid distractions on your path to becoming a professional software developer and make you focus on only the most important things</li>
-	<li>Get exclusive access to my content as well as other resources on the web that will be helpful on your journey to coding awesomeness</li>
-	</ul>
-	<p>You can join my newsletter by entering your best email address in the form below.</p>
 	{% include form.html %}
 </div>

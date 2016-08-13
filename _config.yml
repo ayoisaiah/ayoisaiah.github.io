@@ -21,7 +21,7 @@ kramdown:
 google_analytics: UA-74640522-1
 
 #Pagination
-paginate: 6
+paginate: 20
 paginate_path: "/blog/page:num"
 
 defaults: 

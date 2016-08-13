@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Fresh Start
-subtitle: I'm back!
 permalink: /hello-world/
+subtitle: Back to blogging after a long time out
 excerpt: Back to blogging after a long time out!
-image: hello-world.jpg
+teaser: hello-world.jpg
 ---
 
 It's been a while since I blogged about my progress in learning web development which is mainly due to the fact that I just couldn't find the time to spare amongst other pressing commitments.

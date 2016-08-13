@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Random Quote Machine [Project]
+title: Random Quote Machine
 permalink: /random-quote-generator/
 excerpt: My workflow for building a Random Quote Generator as part of Free Code Camp's curriculum
-image: random-quote-gen.jpg
+teaser: random-quote-gen.jpg
 ---
 
 I really wasn't entirely satisfied with my [first attempt](http://codepen.io/ayoisaiah/full/zrqWje) at building a Random Quote Generator on Free Code Camp. It was ugly, and the quotes were too long so I didn't bother to implement the "tweet" functionality. It just didn't make any sense to do that.

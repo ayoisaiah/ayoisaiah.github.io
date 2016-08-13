@@ -17,7 +17,7 @@ $weights: (700, 400, 400, 400, 400, 400);
 }
 
 h1 {
-	text-align: center;
+	text-align: left;
 	@media screen and (max-width: $mobile-break) {
 		font-size: 2.8rem;
 	}
@@ -30,7 +30,10 @@ p {
 }
 
 li {
-	margin-left: 1em;
 	list-style-type: disc;
 	font-size: 1.8rem;
+}
+
+li:not(.social-media-share):not(.navbar-link):not(.nav-link):not(.title) {
+	margin-left: 20px;
 }

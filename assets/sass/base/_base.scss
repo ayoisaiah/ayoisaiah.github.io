@@ -5,6 +5,7 @@ html {
 body {
 	height: 100%;
 	font-family: $text-font-stack;
+	overflow-x: hidden;
 }
 
 .main {
@@ -20,10 +21,6 @@ ul {
 
 code {
 	overflow: auto;
-}
-
-li:not(.social-media-share):not(.navbar-link):not(.nav-link) {
-	margin-left: 40px;
 }
 
 ::selection {

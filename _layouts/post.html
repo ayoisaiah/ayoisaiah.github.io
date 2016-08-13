@@ -1,25 +1,12 @@
 ---
 layout: default
 ---
-<article class="article ten columns offset-by-one" itemscope itemtype="http://schema.org/BlogPosting" id="article">
+<article class="article" itemscope itemtype="http://schema.org/BlogPosting" id="article">
 
   <header class="post-header">
 
-    <h1 class="post-title" itemprop="name headline">{{ page.title }} <small class="subtitle">{{ page.subtitle }}</small></h1>
-
-    <div class="post-meta">
-
-	    <span class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }} - </time></span>
-	    
-	    {% if page.content %} 
-	    
-				<span class="post-word-count"> <span id="word-count-number">{{ page.content | number_of_words }}</span> words - </span>
-
-	    {% endif %}
-
-	    <span class="post-reading-time"><span id="reading-time-number"></span> minute read</span>
-	    
-    </div>
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <span class="subtitle">{{ page.subtitle }}</span>
 
     {% if page.image %}
 			<div class="featured-image"><img src="{{ site.baseurl }}/images/{{ page.image }}" alt="image"></div>
@@ -31,8 +18,13 @@ layout: default
     {{ content }}
   </div>
 
-	{% include share-buttons.html %}
+  {% if page.resources %}
+    {% include resources.html %}
+  {% endif% }
 
+	{% include share-buttons.html %}
+  {% include form.html %}
+  {% include disqus.html %}
 </article>
 <script>
     /**
@@ -55,4 +47,3 @@ layout: default
     })();
 </script>
 <script id="dsq-count-scr" src="//ayoisaiah.disqus.com/count.js" async></script>
-{% include disqus.html %}

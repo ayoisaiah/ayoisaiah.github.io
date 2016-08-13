@@ -3,7 +3,7 @@ layout: post
 title:  Intermediate Algorithm Challenges
 permalink: /intermediate-algorithm-challenges/
 excerpt: Earlier this week, I completed the last of the intermediate algorithm challenges which leaves me with just the advanced Front-End projects for the first level certification
-image: intermediate-algorithms.png
+teaser: intermediate-algorithms.jpg
 ---
 
 Earlier this week, I completed the last of the [intermediate algorithm challenges](https://www.freecodecamp.com/map#nested-collapseIntermediateAlgorithmScripting) which leaves me with just the Advanced Front-End Projects for the first level certification.
@@ -18,7 +18,9 @@ If you're interested in looking at my solutions, they can be found on [Github](h
 
 As previously mentioned, I'm moving on to the [Advanced Front-End Development Projects](https://www.freecodecamp.com/map#nested-collapseAdvancedFrontEndDevelopmentProjects) this weekend. Thankfully, before Free Code Camp restructured the curriculum, I had already completed the [JavaScript Calculator](http://codepen.io/ayoisaiah/full/NxMEpe) and [Pomodoro Clock](http://codepen.io/ayoisaiah/full/wMZYvg) projects which means I'll be moving straight to the Tic Tac Toe Project and I hope to have it ready within the next week. 
 
-![Advanced Front-End Projects]({{ site.baseurl }}/images/advanced-front-end-projects.png  "Advanced Front-End Projects")
+<figure>
+	<img src="{{ site.baseurl }}/images/advanced-front-end-projects.png" alt="Advanced Front-End Projects">
+</figure>
 
 Aside from the standard user stories, here are a few things I'd like to implement in this project:
 

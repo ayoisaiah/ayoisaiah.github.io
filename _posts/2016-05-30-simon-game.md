@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Simon Game [Project]
+title: Simon Game
 permalink: /simon-game/
 excerpt: My final Front-End project on Free Code Camp involved making a Simon Game which challenges your memory by forcing you to remember patterns of button clicks
-image: simon-game.jpg
+teaser: simon-game.jpg
 ---
 
 My final Front-End project on Free Code Camp involved making a Simon Game which is basically a game that tests your memory by forcing you to remember the exact patterns of random button presses.
@@ -63,6 +63,8 @@ This was one of my favourite projects so far and it proved fitting way to comple
 
 I hope I can kick on from here and continue to improve my code and build great things.
 
-![Front-End Certificate]({{ site.baseurl }}/images/front-end-cert.jpg  "Front-End Certificate")
+<figure>
+	<img src="{{ site.baseurl }}/images/front-end-cert.jpg" alt="Front-End Certificate">
+</figure>
 
 *If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:sudo@ayoisaiah.com).*
