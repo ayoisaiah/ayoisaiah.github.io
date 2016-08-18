@@ -3,7 +3,7 @@ layout: post
 title: Why I switched to Fedora from Arch Linux
 permalink: /switching-to-fedora/
 excerpt: I discuss the motives behind my recent switch to Fedora after eight months with Arch Linux and what it was like to try out a new Linux distro
-image: switching-to-fedora-featured.jpg
+teaser: switching-to-fedora-featured.jpg
 ---
 
 

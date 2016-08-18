@@ -1,6 +1,4 @@
-@mixin headingFontStack ($size, $weight) {
-	font-family: $headline-font-stack;
-	font-weight: $weight;
-	font-size: $size;
-	color: $very-dark-grey;
+@mixin fullWidth () {
+	margin-left: calc(50% - 50vw);
+	margin-right: calc(50% - 50vw);
 }

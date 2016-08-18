@@ -6,14 +6,12 @@ img {
 
 .featured-image {
 	margin-top: 20px;
-	margin-left: calc(50% - 50vw);
-	margin-right: calc(50% - 50vw);
+	@include fullWidth();
 }
 
 figure {
 	margin-top: 2em;
-	margin-left: calc(50% - 50vw);
-	margin-right: calc(50% - 50vw);
+	@include fullWidth();
 	margin-bottom: 2em;
 }
 
@@ -22,9 +20,3 @@ figcaption {
 	font-size: 1.5rem;
 	color: $grey;
 }
-
-// @media screen and (max-width: 960px) {
-// 	figure {
-// 		margin: 0;
-// 	}
-// }

@@ -6,26 +6,20 @@ excerpt: An introduction to Vue.js
 image:
 ---
 
-A friend of mine introduced me to Vue.js and I started playing around with it. It didnt me long to start building stuff with it. I think it's a great framework to learn if you've grasped the basic concepts of JavaScript.
-
-## What is Vue.js
+[Vue.js]() is a JavaScript Library that makes building web applications easy and reactive. In simple terms, it helps you convert data objects (model) in your application to HTML (view) and binds the DOM to the underlying data so that if your data changes, the page is updated accordingly.
 
 ## Target Audience
 
-This tutorial is targeted at newbie developers who already understand JavaScript to some extent but do not have any experience with a js framework.
+This tutorial is targeted at beginner developers who have a reasonable understanding of JavaScript and the DOM but do not have any experience with a framework.
 
 People who could fit into this category are:
 
-- Those who've just completed the Front-End section of Free Code Camp
+- Those who have completed the Front-End section of Free Code Camp
 - People who rely on jQuery exclusively for DOM manipulation
 
 **This tutorial is not for**
 
-- Complete newbies to JavaScript or people who are just getting started with coding. 
-
-Please take the time to understand the core concepts first before learning abstractions.
-
-[Free Code Camp](http://freecodecamp.com) is a great place to start.
+- Complete newbies to JavaScript. Please take the time to understand the core concepts first before learning abstractions. [Free Code Camp](http://freecodecamp.com) is a great place to start.
 
 - People who already have in-depth knowledge of Vue.js, Angular.js, Ember.js, React or similar frameworks.
 
@@ -33,12 +27,13 @@ Please take the time to understand the core concepts first before learning abstr
 
 We are going to build a simple to-do list app with the following user stories:
 
-1. User can add a single list item at a time
+1. User can add a single todo item at a time
 2. User can delete a single item
 3. User can clear the whole list
-4. User can mark items as completed
+4. User can mark single items as completed
+5. User can mark all items as completed
 
-It's always a good idea to break down projects into single actionable steps becaue it will help you
+It is considered best practice to always break down complex tasks into small sequential steps that can be completed in succession because it reduces the tendency to feel overwhelmed and exhausted as is the case when battling with large chunks of work.
 
 I'm going to explain how each feature was implemented step-by-step so hopefully you should have a good understanding of how everything works together at the end of this tutorial.
 

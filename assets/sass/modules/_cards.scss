@@ -1,5 +1,3 @@
-// // Some of the styles here were adapted from Material Design Lite https://getmdl.io/components/#cards-section
-
 .card {
 	position: relative;
 	box-sizing: border-box; 
@@ -9,17 +7,6 @@
 	border-radius: 2px;
 	font-weight: 400;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-
-	h2 {
-		text-align: left;
-		font-family: $text-font-stack;
-		font-weight: 700;
-		line-height: 0.75;
-		a {
-			font-size: 2.2rem;
-			color: $very-dark-grey;
-		}
-	}
 }
 
 .card-image {
@@ -35,6 +22,15 @@
 	background-color: $white;
 	padding: 10px 15px;
 	color: rgba(0, 0, 0, 0.54);
+
+	h2 {
+		text-align: left;
+		font-family: $text-font-stack;
+		font-weight: 700;
+		line-height: 0.75;
+		font-size: 2.2rem;
+		color: $very-dark-grey;
+	}
 }
 
 .read-more {
@@ -47,7 +43,7 @@
 	font-size: 1.6rem;
 	box-sizing: border-box;
 
-	a {
+	.link {
 		display: inline-block;
 		margin: 10px 10px;
 		font-weight: 500;

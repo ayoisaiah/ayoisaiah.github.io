@@ -1,0 +1,16 @@
+@font-face {
+	font-family: "Montserrat Light";
+	src: url("../fonts/Montserrat-Light.woff") format("woff"),
+			 url("../fonts/Montserrat-Light.ttf") format("truetype");
+}
+
+p {
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #333;
+}
+
+li {
+	list-style-type: disc;
+	font-size: 1.8rem;
+}

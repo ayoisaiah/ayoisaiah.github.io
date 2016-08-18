@@ -1,26 +1,18 @@
 html {
-	font-size: $rem-default;
+	box-sizing: border-box;
 }
 
 body {
-	height: 100%;
 	font-family: $text-font-stack;
 	overflow-x: hidden;
-}
-
-.main {
-	position: relative;
-	max-width: $site-max-width;
-	margin: 0 auto;
-	min-height: 100vh;
 }
 
 ul {
 	list-style: none;
 }
 
-code {
-	overflow: auto;
+li:not(.social-media-share):not(.navbar-link):not(.nav-link):not(.title) {
+	margin-left: 20px;
 }
 
 ::selection {
