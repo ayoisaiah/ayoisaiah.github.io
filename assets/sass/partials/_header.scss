@@ -1,10 +1,8 @@
 .navbar {
 	font-family: $utility-font;
-	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	z-index: 3000;
-	position: absolute;
-	top: 0;
-	border-bottom: 1px solid $light-grey;
 }
 
 ul.topnav, ul.topnav li {
@@ -21,7 +19,7 @@ ul.topnav {
 ul.topnav li {
 	list-style-type: none;
 	float: left;
-	padding: 14px 16px;
+	padding: 20px 16px;
 
 	&:not(:first-child) {
 		float: right;

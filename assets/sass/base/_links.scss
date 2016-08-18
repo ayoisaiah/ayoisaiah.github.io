@@ -1,8 +1,8 @@
 a {
-	text-decoration: none;
-	color: $link-blue;
+	color: $font-color;
+	text-decoration: underline;
 	&:hover {
 		text-decoration: underline;
-		color: $link-blue;
+		color: lighten($link-color, 20%);
 	}
 }

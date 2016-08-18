@@ -4,13 +4,22 @@
 			 url("../fonts/Montserrat-Light.ttf") format("truetype");
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font-stack;
+	font-weight: 700;
+}
+
+h2 {
+	text-align: center;
+}
+
 p {
-	font-size: 1.8rem;
+	font-size: 2rem;
 	font-weight: 400;
-	color: #333;
+	color: $font-color;
 }
 
 li {
 	list-style-type: disc;
-	font-size: 1.8rem;
+	font-size: 2rem;
 }

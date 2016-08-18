@@ -18,7 +18,7 @@
 }
 
 .card-excerpt {
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	background-color: $white;
 	padding: 10px 15px;
 	color: rgba(0, 0, 0, 0.54);
@@ -27,7 +27,6 @@
 		text-align: left;
 		font-family: $text-font-stack;
 		font-weight: 700;
-		line-height: 0.75;
 		font-size: 2.2rem;
 		color: $very-dark-grey;
 	}
@@ -40,21 +39,20 @@
 	padding: 8px 0;
 	width: 100%;
 	line-height: normal;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	box-sizing: border-box;
 
 	.link {
 		display: inline-block;
 		margin: 10px 10px;
 		font-weight: 500;
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 		padding: 10px 15px;
 		background-color: transparent;
+		color: rgba(0, 0, 0, 0.54);
 
 		&:hover {
-			background-color: $light-grey;
-			color: $link-blue;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 	}
 }

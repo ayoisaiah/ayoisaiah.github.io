@@ -15,12 +15,13 @@ $facebook: #3b5998;
 $twitter: #1A8FD7;
 $reddit: #333;
 $social-colors: ($facebook, $twitter, $reddit);
-$link-blue: #0F46FF;
+$link-color: #0F46FF;
 
 //Fonts
 $rembase: 62.5%;
 // $line-height-base: 
-$text-font-stack: "Source Sans Pro", sans-serif;
-$headline-font-stack: "Bitter", serif;
+
+$heading-font-stack:'Josefin Slab', serif;
 $utility-font: "Montserrat Light", sans-serif;
-//$code-font-stack:;
+$text-font-stack: 'Josefin Sans', sans-serif;
+$code-font-stack: 'Source Code Pro', monospace;
