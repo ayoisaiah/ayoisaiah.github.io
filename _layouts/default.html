@@ -5,18 +5,8 @@
 
   <body>
 		{% include header.html %}
-		<main class="main" role="main">
-			<div class="content-wrapper">
-				<div class="container">
-					<div class="row">
-						<div class="twelve columns">
-							{{ content }}
-						</div>
-					</div>
-				</div>
-			</div>
-		</main>
-
+		{% include main.html %}
+		{% include footer.html %}
 		{% include scripts.html %}
   </body>
 

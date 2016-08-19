@@ -4,10 +4,11 @@ layout: default
 <article class="article" itemscope itemtype="http://schema.org/BlogPosting" id="article">
 
   <header class="post-header">
-
+    <span class="post-date">{{ page.date | date_to_string }}</span>
+    <br>
+    <br>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <span class="subtitle">{{ page.subtitle }}</span>
-
     {% if page.image %}
 			<div class="featured-image"><img src="{{ site.baseurl }}/images/{{ page.image }}" alt="image"></div>
 		{% endif %}
@@ -18,13 +19,11 @@ layout: default
     {{ content }}
   </div>
 
-  {% if page.resources %}
-    {% include resources.html %}
-  {% endif% }
-
-	{% include share-buttons.html %}
-  {% include form.html %}
-  {% include disqus.html %}
+  <div class="breakout">
+    {% include socialmedia.html %}
+    {% include form.html %}
+  </div>
+   {% include disqus.html %}
 </article>
 <script>
     /**

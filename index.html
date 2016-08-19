@@ -12,6 +12,7 @@ title: Ayo Isaiah
 	<p>I write a lot of articles and I've been featured on a number of online publications. On this blog, I will be posting about the technologies I care about as well as in-depth tutorials on web development tailored for the complete beginner.</p>
 	<p>My latest article is titled {% for post in site.posts limit:1 %}{% if post.external %}<a href="{{ post.link }}" target="_blank">{{ post.title }} [{{ post.host }}]</a>{% else %}<a href="{{ post.url }}">{{ post.title }}</a>{% endif %}.{% endfor %}</p>
 	<p><a href="{{ site.baseurl }}/blog/">View my articles</a></p>
-	<hr>
-	{% include form.html %}
+	<div class="breakout">
+		{% include form.html %}
+	</div>
 </div>

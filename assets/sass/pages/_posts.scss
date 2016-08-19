@@ -1,5 +1,6 @@
 .post-content {
 	margin-top: 30px;
+	padding-bottom: 50px;
 }
 
 article {
@@ -14,4 +15,13 @@ article {
 			font-weight: 500;
 			font-size: 2rem;
 	}
+
+	.post-date {
+		@extend .subtitle;
+	}
+}
+
+.breakout {
+	@include fullWidth();
+	border-top: 1px solid $light-grey;
 }

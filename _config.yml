@@ -34,7 +34,7 @@ defaults:
 port: 4004
 
 disqus: ayoisaiah
-gems: [jekyll-paginate, jekyll-sitemap]
+gems: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from]
 
 exclude: [node_modules, gulpfile.js]
 

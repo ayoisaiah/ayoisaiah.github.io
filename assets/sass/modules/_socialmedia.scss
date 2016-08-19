@@ -1,0 +1,20 @@
+.share-buttons {
+  padding: 40px 30px 30px;
+  max-width: 750px;
+  margin: 0px auto;
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .button {
+    height: 42px;
+    width: 100%;
+  }
+
+  .post-date {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+}
