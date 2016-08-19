@@ -64,7 +64,7 @@ This was one of my favourite projects so far and it proved fitting way to comple
 I hope I can kick on from here and continue to improve my code and build great things.
 
 <figure>
-	<img src="{{ site.baseurl }}/images/front-end-cert.jpg" alt="Front-End Certificate">
+	<img src="{{ site.baseurl }}/assets/images/front-end-cert.jpg" alt="Front-End Certificate">
 </figure>
 
 *If you want to reach out or connect with me, you can find me on [Twitter](https://twitter.com/ayisaiah) or [email me](mailto:sudo@ayoisaiah.com).*

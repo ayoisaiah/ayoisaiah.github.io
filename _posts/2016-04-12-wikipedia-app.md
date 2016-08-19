@@ -33,7 +33,7 @@ window.onload = function() {
 
 One thing I experimented with a bit is getting the results page to show up as soon as you start typing in the search box, imitating this feature on Google search.
 
-![Google Homepage]({{ site.baseurl }}/images/google-homepage.gif  "Google Homepage")
+![Google Homepage]({{ site.baseurl }}/assets/images/google-homepage.gif  "Google Homepage")
 
 I was able to replicate this on my app but I wasn't sure how it was going to function on touchscreens because in my tests, the page didn't respond to keypresses on my phone.
 
@@ -89,7 +89,7 @@ $(".title-" + m).html("<a href='https://en.wikipedia.org/wiki/" + url + "' targe
 
 The last thing I did was to make an error function so that if a user's query does not match any results, it will simply display a few tips on the page to help the user improve search.
 
-![Wikipedia - Error Page]({{ site.baseurl }}/images/wikipedia-error-page.png  "Wikipedia - Error Page")
+![Wikipedia - Error Page]({{ site.baseurl }}/assets/images/wikipedia-error-page.png  "Wikipedia - Error Page")
 
 So that was pretty much it for this project. You can view the final result on [Codepen](http://codepen.io/ayoisaiah/full/Kzvrbp).
 

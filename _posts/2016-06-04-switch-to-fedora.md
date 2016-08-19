@@ -45,7 +45,7 @@ Installing Software
 ---
 
 <figure>
-	<img src="{{ site.baseurl }}/images/switching-to-fedora-gnome-software.jpg" alt="">
+	<img src="{{ site.baseurl }}/assets/images/switching-to-fedora-gnome-software.jpg" alt="">
 </figure>
 
 Out of the box, Fedora 23 comes with some useful software (like Firefox & LibreOffice) and installing more isn't hard at all if you use Gnome Software which actually works very well unlike when I first tried it on Arch. 

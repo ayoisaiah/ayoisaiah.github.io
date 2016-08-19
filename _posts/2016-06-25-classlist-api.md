@@ -45,7 +45,7 @@ console.log(nav.classList);
 
 You can try the above in your browser to see it in action.
 
-![classList API Example]({{ site.baseurl }}/images/classlist/classlist-1.png "classList API Example")
+![classList API Example]({{ site.baseurl }}/assets/images/classlist/classlist-1.png "classList API Example")
 
 Getting the classes of an element is all well and good but it isn't all that useful on its own. We need a way to manage and update those classes and the `classList` property provides a few methods that do just that:
 

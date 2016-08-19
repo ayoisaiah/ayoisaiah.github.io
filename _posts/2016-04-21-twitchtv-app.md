@@ -143,7 +143,7 @@ I used a bit of regex to remove special characters and spaces from the users que
 
 It also helps so that if a user searches for something like "free code camp" (seperating whole words with spaces) instead of "freecodecamp", it still returns the expected relevant result.
 
-![Twitch Tv App design]({{ site.baseurl }}/images/twitchtv-search.png  "Twitch Tv App design")
+![Twitch Tv App design]({{ site.baseurl }}/assets/images/twitchtv-search.png  "Twitch Tv App design")
 
 So that was pretty much it for this project. You can view the [final version](http://codepen.io/ayoisaiah/full/MyGjpz/) on Codepen.
 

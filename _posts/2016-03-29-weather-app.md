@@ -30,7 +30,7 @@ I also liked the animated weather icon in the [example project](http://codepen.i
 
 As usual, I put everything down in my [Workflowy](https://workflowy.com/invite/2dbe7482.lnx).
 
-![Weather Project design plan]({{ site.baseurl }}/images/weather-project-design-plan.png  "Weather Project design plan")
+![Weather Project design plan]({{ site.baseurl }}/assets/images/weather-project-design-plan.png  "Weather Project design plan")
 
 Setting everything up was pretty straight forward except finding a suitable animated icon set. I had to search a bit before I found [Skycons](https://darkskyapp.github.io/skycons/) which is what I ended up using.
 
