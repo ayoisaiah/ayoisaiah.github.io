@@ -25,3 +25,7 @@ article {
 	@include fullWidth();
 	border-top: 1px solid $light-grey;
 }
+
+.comments {
+	padding: 30px 0;
+}
