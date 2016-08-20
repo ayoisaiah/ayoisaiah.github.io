@@ -1,9 +1,12 @@
 <script>
+function openOverlay () {
+	document.getElementById("overlay").style.display = "flex";
+}
 
-	function menu() {
-		document.getElementById("topnav").classList.toggle("responsive");
-		console.log("yay");
-	}
+function closeNav () {
+	document.getElementById("overlay").style.display = "none";
+}
+
 </script>
 {% if page.customjs %}
 <script src="{{ page.customjs }}"></script>
