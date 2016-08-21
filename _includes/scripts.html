@@ -11,4 +11,21 @@ function closeNav () {
 {% if page.customjs %}
 <script src="{{ page.customjs }}"></script>
 {% endif %}
+{% if page.password %}
+<script>
+	
+	document.body.style.display = "none";
+
+	var password = prompt("Enter Password?");
+
+	if (password == 9999) {
+		document.body.style.display = "block";
+	} else {
+		alert("Sorry this article is yet to be published");
+		window.location.href = "{{ site.baseurl }}/404/";
+	}
+
+</script>
+{% endif %}
+
 {% include analytics.html %}
