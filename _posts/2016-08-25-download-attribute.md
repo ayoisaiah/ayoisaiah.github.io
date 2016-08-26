@@ -6,7 +6,7 @@ excerpt: A short introduction to the HTML5 download attribute and how it can be 
 teaser: download.png
 customjs: https://cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js
 ---
-At work today, I faced an interesting problem. I wanted to link to a media file in a blog post so that users can download the file. However, I discovered that the browser opens the file instead of downloading it.
+At work today, I faced an interesting problem. I wanted to link to a media file in a blog post so that users can download the file but I discovered that the browser opens the file instead of downloading it.
 
 So I did a little research and stumbled upon the `download ` attribute for hyperlinks in HTML5 which specifies to the browser that any hyperlink where it is applied is to be used for downloading a resource.
 
