@@ -2,8 +2,8 @@
 layout: post
 title: Exploring the HTML5 download Attribute
 permalink: /html5-download-attribute/
-excerpt: 
-teaser: 
+excerpt: A short introduction to the HTML5 download attribute and how it can be used to download resources from the web
+teaser: download.png
 customjs: https://cdn.jsdelivr.net/caniuse-embed/1.0.1/caniuse-embed.min.js
 ---
 At work today, I faced an interesting problem. I wanted to link to a media file in a blog post so that users can download the file. However, I discovered that the browser opens the file instead of downloading it.
