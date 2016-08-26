@@ -1,10 +1,11 @@
 <script>
 function openOverlay () {
-	document.getElementById("overlay").style.display = "flex";
+	var overlay = document.getElementById("overlay");
+	overlay.classList.add("open");
 }
 
 function closeNav () {
-	document.getElementById("overlay").style.display = "none";
+	document.getElementById("overlay").classList.remove("open");
 }
 
 </script>

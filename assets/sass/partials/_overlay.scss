@@ -1,15 +1,23 @@
 .nav-overlay {
+	display: flex;
 	position: fixed;
 	top: 0;
 	left: 0;
 	background-color: rgba(0,0,0, 0.9);
 	min-width: 100%;
 	min-height: 100%;
-	transition: 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
 	z-index: 100000;
-	display: none;
+	visibility: hidden;
+	opacity: 0;
 	justify-content: center;
 	align-items: center;
+	
+	&.open {
+		opacity: 1;
+		visibility: visible;
+		transition: opacity 0.5s;
+	}
 
 	ul, li {
 		list-style-type: none;
@@ -17,7 +25,7 @@
 
 	.nav-link {
 		text-align: center;
-		font-size: 3.5rem;
+		font-size: 4.5rem;
 		color: #818181;
 		padding: 8px;
 		text-decoration: none;
