@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploring the HTML5 download Attribute
+title: Exploring the HTML5 download attribute
 permalink: /html5-download-attribute/
 excerpt: A short introduction to the HTML5 download attribute and how it can be used to download resources from the web
 teaser: download.png
