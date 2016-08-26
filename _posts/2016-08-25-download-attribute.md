@@ -50,4 +50,4 @@ If you need to support browsers who do not recognise this attribute yet, you may
 
 ---
 
-If you learnt something from this reading this article, please do share with others  who it might benefit as well. Thanks.
+If you learnt something from this reading this article, please do share with others  who might benefit as well. Thanks.
