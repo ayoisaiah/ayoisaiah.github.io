@@ -48,7 +48,8 @@ http://ogp.me/ns/article#">
   <meta property="og:type" content="article" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:site_name" content="AyoIsaiah.com" />
+  <meta property="og:site_name" content="ayoisaiah.xyz" />
+  <meta property="og:image" content="{% if page.teaser %}{{ page.teaser | prepend: site.baseurl | prepend: site.url }}{% else %}{{ {{baseurl}}/avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
