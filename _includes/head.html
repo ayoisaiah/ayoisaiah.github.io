@@ -49,7 +49,7 @@ http://ogp.me/ns/article#">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:site_name" content="ayoisaiah.com" />
-  <meta property="og:image" content="{% if page.teaser %}{{ site.baseurl }}/assets/images/{{ page.teaser }}{% else %}{{ {{baseurl}}/avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.teaser %}{{ site.url }}/assets/images/{{ page.teaser }}{% else %}{{ {{baseurl}}/avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
@@ -57,6 +57,7 @@ http://ogp.me/ns/article#">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:creator" content="@ayisaiah">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.teaser }}">
 <!--   <script type="text/javascript">
     var host = "ayoisaiah.com";
     if ((host == window.location.host) && (window.location.protocol != "https:"))
