@@ -379,8 +379,13 @@ console.log(modifiedArr); // ["Google", "Apple", "Microsoft", "Apple", "Canonica
 
 ---
 
-So there we have it. I hope the examples and my explanations have given you an idea of how each of the Array mutator methods work and how they can be applied in your programs.
+So there we have it. I hope the examples and my explanations have given you an idea of how each of the array mutator methods work and how they can be applied in your programs.
 
 Thanks for reading. Please share this article if you found it useful.
 
 If you want to be notified when I publish the second and third parts in the series which will discuss accessor and iteration methods, as well as all future articles and tutorials, you can [subscribe to my email newsletter]({{ site.baseurl }}/subscribe/) to recieve an email as soon as they are published.
+
+## Resources
+
+- For a more authoritative explanation of array mutator methods, checkout [Ire Aderinokun's video](https://www.youtube.com/watch?v=uXV7KwRubwM) on YouTube.
+- You can view [MDN's documentation of javascript array methods](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype) for more comprehensive examples.
