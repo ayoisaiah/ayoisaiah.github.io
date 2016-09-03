@@ -75,7 +75,7 @@ The `push()` method modifies an array by **appending** one or more elements to t
 You can append a single element  to an array like this:
 
 ```javascript
-var cities = ["London", "Lagos", "New York", "Accra"];
+var cities = [ "Lagos", "New York", "Accra"];
 
 var length = cities.push("Warsaw");
 
