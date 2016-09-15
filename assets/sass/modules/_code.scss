@@ -2,3 +2,11 @@ code {
 	font-family: $code-font-stack;
 	overflow: auto;
 }
+
+pre > code {
+	font-size: 90%;
+}
+
+code {
+	font-size: 80%;
+}
