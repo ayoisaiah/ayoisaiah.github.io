@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beginners Guide to JavaScript Array Methods - Mutator Methods
+title: Beginners Guide to JavaScript Array Methods - Mutator Methods (Part 1)
 permalink: /javascript-array-mutator-methods/
 teaser: javascript-arrays.jpg
 excerpt: We explore nine powerful array mutator methods in JavaScript and discuss the applications of each one of them 
@@ -36,7 +36,9 @@ Array methods are generally divided into 3 categories:
 - [Accessor Methods](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Accessor_methods)
 - [Iteration Methods](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Iteration_methods)
 
-We shall consider the mutator methods in this article. They are those that modify an array in some way.  In the coming weeks, I will publish the second and third parts of this series which will consider the accessor and iteration methods.
+We shall consider the mutator methods in this article. They are those that modify an array in some way.  In the coming weeks, I will publish the [second]({{ site.baseurl }}/javascript-array-accessor-methods/) and third parts of this series which will consider the accessor and iteration methods.
+
+**Update (15-09-2016):** [Part 2 - JavaScript Array Accessor Methods]({{ site.baseurl }}/javascript-array-accessor-methods/)
 
 We have nine mutator methods in JavaScript and we shall go over each one in turn. Let's begin:
 
