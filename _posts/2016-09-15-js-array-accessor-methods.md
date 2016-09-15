@@ -3,7 +3,7 @@ layout: post
 title: Beginners Guide to JavaScript Array Accessor Methods (Part 2)
 permalink: /javascript-array-accessor-methods/
 excerpt: In the second part of our three-part series exploring the array methods in JavaScript, we will consider another group of methods, the accessor methods.
-teaser: 
+teaser: javascript-array-accessor-methods.png
 ---
 
 In the second part of our three-part series exploring the array methods in JavaScript, we will consider another group of methods, the Accessor methods, which are those that do not modify an array but return some representation of any array on which they are applied to.
@@ -242,6 +242,6 @@ Also consider sharing this article if you know someone who might benefit from re
 
 - Part 3: JavaScript Array Iteration Methods.
 
-##Thanks
+## Thanks
 
-*Thanks to [Brandon Dees](https://twitter.com/@brandondees) for helping me confirm the output of the `toLocaleString()` method on the date object in the US*.
+*Many thanks to [Brandon Dees](https://twitter.com/@brandondees) for helping me confirm the output of the `toLocaleString()` method on the date object in the US*.
