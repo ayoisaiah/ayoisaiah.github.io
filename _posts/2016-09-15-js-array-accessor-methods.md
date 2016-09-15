@@ -198,7 +198,7 @@ findAll(random); // [0, 5, 6]
 
 The `lastIndexOf()` method performs exactly the same function as the `indexOf()` method but this time, it returns the *last*  index at which the specified element was found in the array or -1 if the element is not present.
 
-The syntax is exactly the same as `indexOf()`. The key difference is that `lastIndexOf()` searches an array from back to front and `fromIndex` will default to the array length minus 1 inf undefined.
+The syntax is exactly the same as `indexOf()`. The key difference is that `lastIndexOf()` searches an array from back to front and `fromIndex` will default to the array length minus 1 if undefined.
 
 ```javascript
 //Syntax
