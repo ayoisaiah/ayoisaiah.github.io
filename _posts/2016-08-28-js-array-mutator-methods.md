@@ -381,7 +381,7 @@ console.log(modifiedArr); // ["Google", "Apple", "Microsoft", "Apple", "Canonica
 
 ---
 
-So there we have it. I hope the examples and my explanations have given you an idea of how each of the array mutator methods work and how they can be applied in your programs.
+So there you have it. I hope the examples and my explanations have given you an idea of how each of the array mutator methods work and how they can be applied in your programs.
 
 Thanks for reading. Please share this article if you found it useful.
 
