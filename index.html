@@ -6,12 +6,24 @@ title: Ayo Isaiah
 <div class="homepage">
 	<h1>Hi, I'm Ayo Isaiah.</h1>
 	<p>I'm a self-taught Front-End Developer living in Lagos, Nigeria and I'm currently learning Full-Stack JavaScript through <a href="http://freecodecamp.com">Free Code Camp</a>.</p>
-	<p><a href="{{ site.baseurl }}/about">Read my full story</a></p>
+	<p><a href="{{ site.baseurl }}/about">Learn more about me</a></p>
 	<hr>
 	<h2>Writing</h2>
 	<p>I write a lot of articles and I've been featured on a number of online publications. On this blog, I will be posting about the technologies I care about as well as in-depth tutorials on web development tailored for the complete beginner.</p>
-	<p>My latest article is titled {% for post in site.posts limit:1 %}{% if post.external %}<a href="{{ post.link }}" target="_blank">{{ post.title }} [{{ post.host }}]</a>{% else %}<a href="{{ post.url }}">{{ post.title }}</a>{% endif %}.{% endfor %}</p>
-	<p><a href="{{ site.baseurl }}/blog/">View my articles</a></p>
+	
+	<div class="center">
+		
+	<h4>Here are some of my latest articles:</h4>
+		
+	{% for post in site.posts limit:3 %}
+	{% if post.external %}
+	<p><a href="{{ post.link }}" target="_blank">{{ post.title }} [{{ post.host }}]</a></p>{% else %}<p><a href="{{ post.url }}">{{ post.title }}</a></p>{% endif %}
+	{% endfor %}
+
+	<p><a href="{{ site.baseurl }}/blog/">View all my articles</a></p>
+	
+	</div>
+
 	<div class="breakout">
 		{% include form.html %}
 	</div>
