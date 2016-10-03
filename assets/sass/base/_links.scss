@@ -3,6 +3,6 @@ a {
 	text-decoration: underline;
 	&:hover {
 		text-decoration: underline;
-		color: lighten($link-color, 20%);
+		color: darken($link-color, 10%);
 	}
 }
