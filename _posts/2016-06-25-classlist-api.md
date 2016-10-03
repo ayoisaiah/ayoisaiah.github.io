@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to manuipulate classes using the classList API
+title: How to manipulate classes using the classList API
 subtitle: you don't need jQuery
 permalink: /manipulating-classes-without-jquery/
 excerpt: Learn how to easily add, remove or toggle classes using the HTML5 classList API
@@ -16,7 +16,7 @@ A quick search presented me with a variety of options to achieve what I was afte
 
 If you're used to using jQuery exlusively for DOM manipulation, this is a great place to start gaining some independence over jQuery and you might be surprised at how easy it is sometimes.
 
-## What is the classList API
+## What is the classList API?
 
 The HTML5 `classList` API provides a way to grab all the classes associated with an element so that you can use JavaScript to modify it.
 
@@ -71,7 +71,7 @@ document.getElementById("span").classList.add("title");
 //gives class="heading title"
 ```
 
-To add multiple classes, seperate each class with a comma.
+To add multiple classes, separate each class with a comma.
 
 ```javascript
 document.getElementById("span").classList.add("title", "headline");
@@ -150,7 +150,7 @@ document.getElementById("navbar").classList.length;
 
 ## Browser Support
 
-The `classList` API is supported by all mordern browsers including IE 10 and later. If you need to support older IE versions, you may need to find an alternative method or use a [polyfill](https://github.com/eligrey/classList.js).
+The `classList` API is supported by all modern browsers including IE 10 and later. If you need to support older IE versions, you may need to find an alternative method or use a [polyfill](https://github.com/eligrey/classList.js).
 
 <p class="ciu_embed" data-feature="classlist" data-periods="future_1,current,past_1,past_2">
   <a href="http://caniuse.com/#feat=classlist">Can I Use classlist?</a> Data on support for the classlist feature across the major browsers from caniuse.com.
