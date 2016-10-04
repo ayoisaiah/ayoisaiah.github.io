@@ -1,0 +1,57 @@
+$text-font-stack: 'Lato', sans-serif;
+$heading-font-stack: 'Francois One' sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-font-stack !important;
+	// font-weight: 700;
+}
+
+body, main {
+	font-family: $text-font-stack;
+	background-color: #363b40;
+	color: #dedede;
+}
+
+p, a {
+	color: #dedede;
+}
+
+a:hover {
+	color: $white-grey;
+}
+
+//Form
+
+.form-div {
+	background-color: #FAFAFA;
+}
+
+input[type="email"] {
+	color: #333;
+}
+
+//footer
+
+footer {
+	span, a {
+		color: #dedede;
+	}
+}
+
+// code
+
+.highlighter-rouge .highlight {
+	background-color: transparent;
+}
+
+code {
+	background: #363b40;
+	border: 1px solid $white-grey;
+	border-radius: 0;
+}
+
+//cards
+
+.card-excerpt {
+	background-color: #363b40;
+}
