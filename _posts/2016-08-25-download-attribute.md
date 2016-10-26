@@ -18,25 +18,25 @@ All you need to do is place the `download` attribute on your `<a>` element. If y
 
 ```html
 <!-- Will download the image as konsole.png -->
-<a href="https://ayoisaiah.xyz/assets/images/konsole.png" download>Download Image</a>
+<a href="https://ayoisaiah.com/assets/images/konsole.png" download>Download Image</a>
 ```
 
-**Try it out:** Download <a href="https://ayoisaiah.xyz/assets/images/konsole.png" download>Konsole.png</a>
+**Try it out:** Download <a href="https://ayoisaiah.com/assets/images/konsole.png" download>Konsole.png</a>
 
 You might also want to specify a different filename for the file or document by setting a value on the `download` attribute.
 
 ```html
 <!-- Will download the image as KDE Terminal App.png -->
-<a href="https://ayoisaiah.xyz/assets/images/konsole.png" download="KDE Terminal App.png">Download Image</a>
+<a href="https://ayoisaiah.com/assets/images/konsole.png" download="KDE Terminal App.png">Download Image</a>
 ```
 
 Of course, one can always change the name of the file when saving to disk but it's always good to have control over the default settings especially in the case of generated files with unweidly file names.
 
-However, while testing this feature, I noticed that Chrome ignores the attribute value and uses the filename instead. 
+However, while testing this feature, I noticed that Chrome ignores the attribute value and uses the filename instead.
 
 Firefox, on the other hand, only allows downloading files from your own domain using this method due to [some security concerns](https://bugzilla.mozilla.org/show_bug.cgi?id=676619). If the file is from another domain, it will ignore the `download` attribute and open the file instead.
 
-**Try it out**: Download <a href="https://ayoisaiah.xyz/assets/images/konsole.png" download="KDE Terminal App.png">KDE Terminal App.png</a>
+**Try it out**: Download <a href="https://ayoisaiah.com/assets/images/konsole.png" download="KDE Terminal App.png">KDE Terminal App.png</a>
 
 ## Browser Support
 
