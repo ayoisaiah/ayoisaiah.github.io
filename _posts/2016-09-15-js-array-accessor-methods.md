@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beginners Guide to JavaScript Array Accessor Methods (Part 2)
+title: JavaScript Array Accessor Methods (Part 2)
 excerpt: In the second part of our three-part series exploring the array methods in JavaScript, we will consider another group of methods, the accessor methods.
 teaser: javascript-array-accessor-methods.png
 external: yes
