@@ -3,55 +3,26 @@ layout: default
 title: Blog
 ---
 
-<div class="blogposts">
-	
-		{% for post in paginator.posts %}
-			{% assign loopindex = forloop.index | modulo: 2 %}
-			{% if loopindex == 1 %}
-			<div class="row">
-				<div class="one-half column">
-					{% if post.external %}
-						<a href="{{ post.link }}">
-							{% include cards.html %}
-						</a>
-					{% else %}
-						<a href="{{ post.url }}">
-							{% include cards.html %}
-						</a>
-					{% endif %}
-				</div>
-				
-				{% else %}
+<div class="archive">
 
-				<div class="one-half column">
-					{% if post.external %}
-						<a href="{{ post.link }}">
-							{% include cards.html %}
-						</a>
-					{% else %}
-						<a href="{{ post.url }}">
-							{% include cards.html %}
-						</a>
-					{% endif %}
-				</div>
-				
-			</div>
-			{% endif %}
-	  {% endfor %}
-	
-  
-  <!-- Pagination links -->
-<!-- 	<div class="pagination">
-	  {% if paginator.previous_page %}
-	    <a href="{{ paginator.previous_page_path }}" class="previous"><i class="mdi mdi-chevron-double-left"></i> Previous</a>
-	  {% else %}
-	    <span class="previous"><i class="mdi mdi-chevron-double-left"></i> Previous</span>
-	  {% endif %}
-	  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-	  {% if paginator.next_page %}
-	    <a href="{{ paginator.next_page_path }}" class="next">Next <i class="mdi mdi-chevron-double-right"></i></a>
-	  {% else %}
-	    <span class="next ">Next <i class="mdi mdi-chevron-double-right"></i></span>
-	  {% endif %}
-	</div> -->
+  {% for post in site.posts %}
+
+      <div class="row">
+        <div class="eight columns offset-by-two">
+
+          <a href="{{ post.url }}">
+            <section class="post">
+              <header>
+                <h4>{{ post.title }}</h4>
+                <span class="post-date">{{ post.date | date_to_string }}</span>
+              </header>
+              <article>
+                <p>{{ post.excerpt }}</p>
+              </article>
+            </section>
+          </a>
+
+        </div>
+      </div>
+  {% endfor %}
 </div>
