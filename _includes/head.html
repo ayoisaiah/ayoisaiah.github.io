@@ -11,8 +11,8 @@ http://ogp.me/ns/article#">
   <meta name="robots" content="noindex,nofollow">
   <meta http-equiv="refresh" content="0;url={{ page.external.url }}" />
   {% else %}
-  <meta name="robots" content="index,follow"> 
-  <meta name="revisit-after" content="1 days"> 
+  <meta name="robots" content="index,follow">
+  <meta name="revisit-after" content="1 days">
   {% endif %}
 
   <!-- Page specific content -->
@@ -21,21 +21,21 @@ http://ogp.me/ns/article#">
   {% if page.tags %}
   <meta name="keywords" content="{{ page.tags|join: ',' }}" />
   {% endif %}
-  <meta name="author" content="Ayo Isaiah"> 
+  <meta name="author" content="Ayo Isaiah">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Stylesheets -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
   {% if page.customcss %}
   <link rel="stylesheet" href="{{ page.customss }}">
-  {% endif %} 
+  {% endif %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  
+
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/rss" | prepend: site.baseurl | prepend: site.url }}" />
 
@@ -50,7 +50,7 @@ http://ogp.me/ns/article#">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
   <meta property="og:site_name" content="ayoisaiah.com" />
   <meta property="og:image" content="{% if page.teaser %}{{ site.url }}/assets/images/{{ page.teaser }}{% else %}{{ {{baseurl}}/avatar | prepend: site.baseurl | prepend: site.url }}{% endif %}">
-  
+
   <!-- Twitter Card data -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@ayisaiah">
@@ -58,9 +58,5 @@ http://ogp.me/ns/article#">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:creator" content="@ayisaiah">
   <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.teaser }}">
-<!--   <script type="text/javascript">
-    var host = "ayoisaiah.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-  </script> -->
+
 </head>
