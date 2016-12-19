@@ -8,19 +8,32 @@ title: Ayo Isaiah
 	<p>I'm a self-taught Front-End Developer living in Lagos, Nigeria and I'm currently learning Full-Stack JavaScript through <a href="http://freecodecamp.com">Free Code Camp</a>.</p>
 	<p><a href="{{ site.baseurl }}/about">Learn more about me</a></p>
 	<hr>
-	<h2>Writing</h2>
-	<p>I write a lot of articles and I've been featured on a number of online publications. On this blog, I will be posting about the technologies I care about as well as in-depth tutorials on web development tailored for the complete beginner.</p>
-		
-	<h4>Here are some of my latest articles:</h4>
-		
-	{% for post in site.posts limit:3 %}
-	{% if post.external %}
-	<p><a href="{{ post.link }}" target="_blank">{{ post.title }} [{{ post.host }}]</a></p>{% else %}<p><a href="{{ post.url }}">{{ post.title }}</a></p>{% endif %}
-	{% endfor %}
+	<h2>Latest Posts</h2>
 
-	<p><a href="{{ site.baseurl }}/blog/">View all my articles</a></p>
+	{% for post in site.posts limit:9 %}
 
-	<div class="breakout">
-		{% include form.html %}
-	</div>
+  <section class="post">
+    <header>
+      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+    </header>
+    <article>
+      {% if post.teaser %}
+      <figure class="teaser-image" style="background: url('{{ site.baseurl }}/assets/images/{{ post.teaser }}') top center no-repeat; background-size: cover;">
+      </figure>
+      {% endif %}
+      <p>{{ post.excerpt }}</p>
+    </article>
+    <footer>
+      <p class="read-more"><a href="{{ post.url }}">Read more →</a></p>
+    </footer>
+  </section>
+
+
+  {% endfor %}
+
+	<aside>
+	  <p>View all my articles in <a href="{{ site.baseurl }}/blog/">the post archive</a>.</p>
+	</aside>
+
 </div>
