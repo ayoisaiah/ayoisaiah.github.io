@@ -19,17 +19,17 @@ I finished this project rather quickly because I knew exactly what to do after l
 
 While thinking up design ideas for this project, I decided to lookup the Google homepage and search results page to see how they handled things.
 
-I ended up taking most of my design inspiration from them as you'll see. 
+I ended up taking most of my design inspiration from them as you'll see.
 
 First up, the homepage has the headline, search box and buttons at the centre of the page. The "I'm Feeling Lucky" button sends you to a random Wikipedia Page which fulfilled the second user story.
 
 When the page loads, focus is given to the search box so that the user can begin typing his query immediately.
 
-{% highlight javascript %}
+```javascript
 window.onload = function() {
     document.getElementById("wiki-search-input").focus();
 };
-{% endhighlight %}
+```
 
 One thing I experimented with a bit is getting the results page to show up as soon as you start typing in the search box, imitating this feature on Google search.
 
@@ -51,7 +51,7 @@ On further investigation, I found another jQuery method  `$.ajax()` on Stack Ove
 
 ```javascript
 function ajax (keyword) {
-	$.ajax({ 
+	$.ajax({
 		url: "https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=" + keyword + "&prop=info&inprop=url&utf8=&format=json",
 		dataType: "jsonp",
 		success: function(response) {
@@ -95,7 +95,7 @@ So that was pretty much it for this project. You can view the final result on [C
 
 ## What's next
 
-I'm halfway done with the Twitch API Project as I write this. Most of the design is done, only need to figure out a few things with the API. 
+I'm halfway done with the Twitch API Project as I write this. Most of the design is done, only need to figure out a few things with the API.
 
 As a new semester at my University kicks off this week, things may become a bit slower with FCC but nonetheless it shouldn't stop me from putting a few hours in everyday.
 

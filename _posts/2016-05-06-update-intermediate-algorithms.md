@@ -3,7 +3,7 @@ layout: post
 title:  Intermediate Algorithm Challenges
 permalink: /intermediate-algorithm-challenges/
 excerpt: Earlier this week, I completed the last of the intermediate algorithm challenges which leaves me with just the advanced Front-End projects for the first level certification
-teaser: intermediate-algorithms.jpg
+teaser: intermediate-algorithms.png
 ---
 
 Earlier this week, I completed the last of the [intermediate algorithm challenges](https://www.freecodecamp.com/map#nested-collapseIntermediateAlgorithmScripting) which leaves me with just the Advanced Front-End Projects for the first level certification.
@@ -16,7 +16,7 @@ If you're interested in looking at my solutions, they can be found on [Github](h
 
 ## What's next
 
-As previously mentioned, I'm moving on to the [Advanced Front-End Development Projects](https://www.freecodecamp.com/map#nested-collapseAdvancedFrontEndDevelopmentProjects) this weekend. Thankfully, before Free Code Camp restructured the curriculum, I had already completed the [JavaScript Calculator](http://codepen.io/ayoisaiah/full/NxMEpe) and [Pomodoro Clock](http://codepen.io/ayoisaiah/full/wMZYvg) projects which means I'll be moving straight to the Tic Tac Toe Project and I hope to have it ready within the next week. 
+As previously mentioned, I'm moving on to the [Advanced Front-End Development Projects](https://www.freecodecamp.com/map#nested-collapseAdvancedFrontEndDevelopmentProjects) this weekend. Thankfully, before Free Code Camp restructured the curriculum, I had already completed the [JavaScript Calculator](http://codepen.io/ayoisaiah/full/NxMEpe) and [Pomodoro Clock](http://codepen.io/ayoisaiah/full/wMZYvg) projects which means I'll be moving straight to the Tic Tac Toe Project and I hope to have it ready within the next week.
 
 <figure>
 	<img src="{{ site.baseurl }}/assets/images/advanced-front-end-projects.png" alt="Advanced Front-End Projects">
