@@ -1,0 +1,28 @@
+/* =================================================================
+  Footnotes
+================================================================= */
+
+.footnotes {
+  padding-top: 1rem;
+
+  &::before {
+    content: "Footnotes";
+    font-size: 2rem;
+    border-bottom: 1px dotted $grey;
+  }
+
+  ol {
+    list-style-position: inside;
+    margin-top: 1rem;
+
+    li, p {
+      font-size: 1.8rem;
+      color: $grey;
+    }
+
+    p {
+      display: inline;
+    }
+  }
+
+}
