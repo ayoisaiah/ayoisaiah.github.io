@@ -9,10 +9,10 @@ body {
 
 ul {
 	list-style: none;
-}
 
-li:not(.social-media-share):not(.navbar-link):not(.nav-link):not(.title) {
-	margin-left: 20px;
+  li {
+    list-style-type: disc;
+  }
 }
 
 ::selection {
