@@ -1,0 +1,15 @@
+<section class="a-card">
+
+  <header class="a-card__header">
+    <h1 class="a-card__header-title"><a href="{{ post.url }}">{{ post.title }} →</a></h1>
+  </header>
+
+  <section class="a-card__excerpt">
+    <p>{{ post.excerpt }}</p>
+  </section>
+
+  <section class="a-card__meta">
+    <p class="post-date">Published on <time>{{ post.date | date: "%B %-d, %Y"}}</time></p>
+  </section>
+
+</section>

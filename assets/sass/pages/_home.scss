@@ -1,7 +1,8 @@
-.homepage {
+.a-home {
 	max-width: 700px;
 	margin: 0 auto;
-	h1 {
+
+	&__headline {
 		text-align: left;
 		font-size: 6rem;
 		@media screen and (max-width: $break-point) {
@@ -10,51 +11,11 @@
 	}
 
   h2 {
-    margin-bottom: 0;
+    margin-bottom: 4rem;
   }
-
-	.post {
-		padding: 2.5rem 0;
-		border-bottom: 1px solid $light-grey;
-
-		a, a:hover {
-			color: font-color;
-			text-decoration: none;
-		}
-
-		h4, p {
-			margin-bottom: 0;
-		}
-
-		header {
-			margin-bottom: 1.5rem;
-		}
-
-    .teaser-image {
-      height: 175px;
-      width: 100%;
-      margin: 1.3rem 0 1.6rem;
-      border: 4px solid $light-grey;
-      border-radius: 4px;
-    }
-
-    .post-date {
-      font-size: 1.7rem;
-    }
-
-    footer {
-			margin-top: 1.5rem;
-      padding: 0;
-
-      .read-more {
-        text-decoration: underline;
-      }
-    }
-
-	}
 
   aside {
     margin-top: 3.5rem;
-		margin-bottom: 2rem;
+		margin-bottom: 6rem;
   }
 }

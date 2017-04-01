@@ -1,0 +1,39 @@
+/**
+ * Homepage Cards
+ */
+
+.a-card {
+  border: 1px solid $light-grey;
+  margin-bottom: 50px;
+  background-color: $white;
+  padding: 20px;
+  border-radius: 0.5rem;
+
+  &__header-title {
+    font-size: 3rem;
+    margin-top: 0;
+
+    a {
+      color: $font-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+
+  &__excerpt {
+    font-size: 1.8rem;
+  }
+
+  &__meta {
+
+    .post-date {
+      font-size: 1.8rem;
+      margin-bottom: 0;
+    }
+
+  }
+
+}

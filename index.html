@@ -3,34 +3,21 @@ layout: default
 title: Ayo Isaiah
 ---
 
-<div class="homepage">
-	<h1>Hi, I'm Ayo Isaiah.</h1>
-	<p>I'm a self-taught Front-End Developer living in Lagos, Nigeria and I'm currently learning Full-Stack JavaScript through <a href="http://freecodecamp.com">Free Code Camp</a>.</p>
+<div class="a-home">
+
+	<h1 class="a-home__headline">Hi, I'm Ayo Isaiah.</h1>
+
+	<p>I'm a self-taught Front-End Developer living in Lagos, Nigeria and I'm currently learning Full-Stack JavaScript through <a href="http://freecodecamp.com">freeCodeCamp</a>.</p>
+
 	<p><a href="{{ site.baseurl }}/about">Learn more about me</a></p>
+
 	<hr>
+
 	<h2>Latest Posts</h2>
 
-	{% for post in site.posts limit:5 %}
-
-  <section class="post">
-    <header>
-      <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
-    </header>
-    <section>
-      {% if post.teaser %}
-      <figure class="teaser-image" style="background: url('{{ site.baseurl }}/assets/images/{{ post.teaser }}') top center no-repeat; background-size: cover;">
-      </figure>
-      {% endif %}
-      <p>{{ post.excerpt }}</p>
-    </section>
-    <footer>
-      <p class="read-more"><a href="{{ post.url }}">Read more →</a></p>
-    </footer>
-  </section>
-
-
-  {% endfor %}
+	{% for post in site.posts limit:10 %}
+		{% include cards.html %}
+	{% endfor %}
 
 	<aside>
 	  <p>View all my articles in <a href="{{ site.baseurl }}/blog/">the post archive</a>.</p>
