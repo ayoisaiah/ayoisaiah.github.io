@@ -1,16 +1,11 @@
-h1, h2, h3, h4, h5, h6 {
-	font-family: $heading-font-stack;
-	font-weight: 700;
-}
-
-h2 {
-	text-align: center;
-}
-
 p {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 400;
 	color: $font-color;
+
+	@media screen and (max-width: 960px) {
+		font-size: 1.6rem;
+	}
 }
 
 blockquote {
@@ -18,5 +13,5 @@ blockquote {
 }
 
 li {
-	font-size: 2rem;
+	font-size: 1.8rem;
 }
