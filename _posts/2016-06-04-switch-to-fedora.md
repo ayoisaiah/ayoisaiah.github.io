@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Why I switched to Fedora from Arch Linux
-permalink: /switching-to-fedora/
-excerpt: I discuss the motives behind my recent switch to Fedora after eight months with Arch Linux and what it was like to try out a new Linux distro
+date: 2016-06-04 00:00:00 Z
+permalink: "/switching-to-fedora/"
+layout: post
+excerpt: I discuss the motives behind my recent switch to Fedora after eight months
+  with Arch Linux and what it was like to try out a new Linux distro
 teaser: switching-to-fedora-featured.jpg
 ---
-
 
 I've been a Linux user for a little over a year now and within that time, I've done my fair share of distro hopping which includes experiences with Ubuntu, Elementary OS, Arch Linux and now Fedora.
 

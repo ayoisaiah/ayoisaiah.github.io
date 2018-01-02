@@ -1,7 +1,8 @@
 ---
-layout: post
 title: Fresh Start
-permalink: /hello-world/
+date: 2016-03-16 00:00:00 Z
+permalink: "/hello-world/"
+layout: post
 subtitle: Back to blogging after a long time out
 excerpt: Back to blogging after a long time out!
 teaser: hello-world.jpg

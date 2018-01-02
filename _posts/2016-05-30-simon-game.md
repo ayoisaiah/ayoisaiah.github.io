@@ -1,8 +1,10 @@
 ---
-layout: post
 title: Simon Game
-permalink: /simon-game/
-excerpt: My final Front-End project on Free Code Camp involved making a Simon Game which challenges your memory by forcing you to remember patterns of button clicks
+date: 2016-05-30 00:00:00 Z
+permalink: "/simon-game/"
+layout: post
+excerpt: My final Front-End project on Free Code Camp involved making a Simon Game
+  which challenges your memory by forcing you to remember patterns of button clicks
 teaser: simon-game.jpg
 ---
 

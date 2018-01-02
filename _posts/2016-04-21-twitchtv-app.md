@@ -1,7 +1,8 @@
 ---
-layout: post
 title: TwitchTv App
-permalink: /twitch-tv-project/
+date: 2016-04-21 00:00:00 Z
+permalink: "/twitch-tv-project/"
+layout: post
 excerpt: My workflow for building a TwitchTv app as part of Free Code Camp's curriculum
 teaser: twitchtv-design.png
 ---

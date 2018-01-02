@@ -1,8 +1,10 @@
 ---
+title: Intermediate Algorithm Challenges
+date: 2016-05-06 00:00:00 Z
+permalink: "/intermediate-algorithm-challenges/"
 layout: post
-title:  Intermediate Algorithm Challenges
-permalink: /intermediate-algorithm-challenges/
-excerpt: Earlier this week, I completed the last of the intermediate algorithm challenges which leaves me with just the advanced Front-End projects for the first level certification
+excerpt: Earlier this week, I completed the last of the intermediate algorithm challenges
+  which leaves me with just the advanced Front-End projects for the first level certification
 teaser: intermediate-algorithms.png
 ---
 

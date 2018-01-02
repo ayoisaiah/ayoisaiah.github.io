@@ -1,8 +1,10 @@
 ---
-layout: post
 title: Random Quote Machine
-permalink: /random-quote-generator/
-excerpt: My workflow for building a Random Quote Generator as part of Free Code Camp's curriculum
+date: 2016-03-18 00:00:00 Z
+permalink: "/random-quote-generator/"
+layout: post
+excerpt: My workflow for building a Random Quote Generator as part of Free Code Camp's
+  curriculum
 teaser: random-quote-gen.jpg
 ---
 

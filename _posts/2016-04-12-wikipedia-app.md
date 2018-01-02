@@ -1,7 +1,8 @@
 ---
-layout: post
 title: WikiPedia Search Engine
-permalink: /wikipedia-search-engine/
+date: 2016-04-12 00:00:00 Z
+permalink: "/wikipedia-search-engine/"
+layout: post
 excerpt: My workflow for building a Wikipedia Viewer as part of Free Code Camp's curriculum
 teaser: wikipedia-homepage.png
 ---

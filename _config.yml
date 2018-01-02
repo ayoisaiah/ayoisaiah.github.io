@@ -1,39 +1,42 @@
-# Site settings
+---
 title: Ayo Isaiah
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
 email: sudo@ayoisaiah.com
 description: Software Developer and Writer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: https://ayoisaiah.com # the base hostname & protocol for your site
+baseurl: ''
+url: https://ayoisaiah.com
 twitter_username: ayisaiah
-github_username:  ayoisaiah
-
-# Build settings
+github_username: ayoisaiah
 sass:
   sass_dir: assets/sass
   style: :compressed
-include: ["_pages"]
+include:
+- _pages
 markdown: kramdown
 kramdown:
   input: GFM
-
-#Analytics
 google_analytics: UA-74640522-1
-
-#Pagination
 paginate: 20
 paginate_path: "/blog/page:num"
-
-defaults:
-  -
-    scope:
-      path: "" #All files in the project
-      type: "posts"
-    values:
-      layout: post
-
 port: 4009
-
 disqus: ayoisaiah
-gems: [jekyll-paginate, jekyll-sitemap, jekyll-redirect-from]
-
-exclude: [node_modules, gulpfile.js]
+gems:
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-redirect-from
+exclude:
+- node_modules
+- gulpfile.js

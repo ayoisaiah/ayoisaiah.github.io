@@ -1,8 +1,10 @@
 ---
-layout: post
 title: Weather App
-permalink: /weather-app/
-excerpt: Last week's project involved building an app to show the local weather of any location. Read on to find out how I did it.
+date: 2016-03-29 00:00:00 Z
+permalink: "/weather-app/"
+layout: post
+excerpt: Last week's project involved building an app to show the local weather of
+  any location. Read on to find out how I did it.
 teaser: weather-featured.png
 ---
 
