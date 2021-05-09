@@ -40,3 +40,5 @@ gems:
 exclude:
 - node_modules
 - gulpfile.js
+
+theme: jekyll-theme-leap-day
